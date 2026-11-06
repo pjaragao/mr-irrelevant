@@ -1,0 +1,11 @@
+{
+  "title": "Como os times foram montados",
+  "subtitle": "High Stakes Fantasy · exemplo",
+  "blocks": [
+    {"type": "donut", "title": "Origem dos jogadores", "center_label": "jogadores", "fmt": "int",
+     "items": [{"label": "Draft", "value": 112}, {"label": "Trocas", "value": 171}, {"label": "Waivers", "value": 98},
+               {"label": "Free agents", "value": 64}]},
+    {"type": "columns", "title": "Waivers por tipo e temporada", "x": ["2024", "2025", "2026"], "stacked": true,
+     "series": [{"name": "waiver", "values": [213, 154, 84]}, {"name": "free_agent", "values": [157, 136, 107]}]}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Quem marca muito e sofre pouco",
+  "subtitle": "High Stakes Fantasy · exemplo",
+  "blocks": [
+    {"type": "scatter", "title": "Pontos sofridos × pontos marcados", "subtitle": "Linhas tracejadas = média da liga",
+     "x_label": "média de pontos", "y_label": "média de pontos sofridos", "fmt": "float",
+     "quadrants": {"tl": "poucos pontos, muitos sofridos", "br": "muitos pontos, poucos sofridos"},
+     "points": [
+       {"label": "Ayahuasquers", "x": 152.3, "y": 138.6}, {"label": "marinh012", "x": 154.4, "y": 130.4},
+       {"label": "rafastw", "x": 126.2, "y": 137.0}, {"label": "fchevarria", "x": 118.0, "y": 144.1},
+       {"label": "aribruno", "x": 140.7, "y": 134.7}, {"label": "eduohira", "x": 121.5, "y": 139.0}]}
+  ]
+}

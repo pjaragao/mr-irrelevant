@@ -1,0 +1,83 @@
+# League #1 (High Stakes Fantasy): the default Hermes profile, i.e. this directory. See docs/MULTILIGA.md.
+#
+# legacy_layout: league data stays where it always was (league/knowledge_base, state files next to the code);
+# any other league lives in data/profiles/<slug>/ with its data under <home>/league/.
+# The WhatsApp group, admin numbers and people phones are NOT here: group_jid falls back to WHATSAPP_GROUP_JID and the
+# admin/phones to the container environment (data/.env), so no personal number is versioned.
+#
+# people: the names/nicknames the group actually uses (managers missing here are read from Sleeper).
+# rules.seeding=division_winners: seeds 1..N are the N division leaders, the rest by record then PF (Sleeper ranks by record only).
+# rules.season_start: NFL kickoff per season (default = Thursday after Labor Day). Trades/waivers before it are "offseason" (week 0), not week 1.
+# rules.draft_order: house rule "rookie draft order = Max PF ascending (anti-tanking)" — Sleeper does not model it.
+slug: hsf
+sleeper_league_id: '1312694161610113024'
+legacy_layout: true
+name: High Stakes Fantasy
+timezone: America/Sao_Paulo
+persona: {name: Mr. Irrelevant, aka: Brock Purdy, admin_name: Paulo Jr}
+rules: {draft_order: max_pf, playoff_odds_from_week: 8, seeding: division_winners, season_start: {'2026': '2026-09-09'}}
+# Sleeper handles managers have since renamed -> the handle the history is keyed by
+manager_aliases: {Paulo_Aragao_Jr: FloripaAstros}
+# Division flags used in the standings (this league names its 3 divisions La Liga / Bundesliga / Premier League)
+division_icons: {'1': 🇪🇸, '2': 🇩🇪, '3': 🏴󠁧󠁢󠁥󠁮󠁧󠁿}
+people:
+  1:
+    name: Mario Octavio (MOC)
+    username: marinh012
+    team: MOC’s Outcasts
+    nicks: [mario, mario octavio, marinho, moc, moc's outcasts, mocs]
+  2:
+    name: Léo Moraes
+    username: leomoraes
+    team: Vai que Vikings
+    nicks: [leo, leonardo, leonardo moraes, leo moraes]
+  3:
+    name: Rafael Steinwandter (Panda)
+    username: rafastw
+    team: PsicoPanda
+    nicks: [panda, rafa, rafael, rafael steinwandter]
+  4:
+    name: Paulo Jr
+    username: FloripaAstros
+    team: Floripa Astros
+    nicks: [paulo, paulo jr, paulo junior, pa, paulo jose aragao junior, paulo aragao jr, paulo_aragao_jr]
+  5:
+    name: Tito Lívio
+    username: TennesseeTITOs
+    team: Tennessee TITOs
+    nicks: [tito, tito livio]
+  6:
+    name: Felipe Chevarria (Chico)
+    username: fchevarria
+    team: Westeros Borrachos
+    nicks: [chico, chevarria, felipe chevarria]
+  7:
+    name: Ari Bruno
+    username: aribruno
+    team: Ari Chameleons
+    nicks: [ari, ari bruno, chameleons]
+  8:
+    name: Yan Riedel
+    username: Riedelons
+    team: Riedelots
+    nicks: [yan, yan riedel, riedel, menino yan]
+  9:
+    name: Luiz Felipe (Lula)
+    username: luizfelipesouza
+    team: Squid Games
+    nicks: [lula, caro lula, luiz felipe, luiz felipe souza, luiz]
+  10:
+    name: Eduardo Ohira
+    username: eduohira
+    team: Tomorrowland
+    nicks: [ohira, edu, eduardo, eduardo ohira, mestre ohira]
+  11:
+    name: Rodrigo Bayer (Brunão)
+    username: Ayahuasquers
+    team: Bayer Kaxinawás
+    nicks: [brunao, bayer, rodrigo, rodrigo bayer, kaxinawas, comissario]
+  12:
+    name: Jonathan Machado
+    username: JonathanMachado17
+    team: Arnhem Miners
+    nicks: [jonathan, jonatan, jony, jonny, machado, jonathan machado]

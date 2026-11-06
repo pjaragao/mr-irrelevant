@@ -1,0 +1,181 @@
+{
+ "dispatched": {
+  "2026-6::2026-10-15_morning": "2026-10-15T08:00:11-03:00",
+  "2026-6::2026-10-15_pre_2115": "2026-10-15T20:15:08-03:00",
+  "2026-6::2026-10-18_morning": "2026-10-18T08:00:23-03:00",
+  "2026-6::2026-10-18_pre_1030": "2026-10-18T09:30:32-03:00",
+  "2026-6::2026-10-19_morning": "2026-10-19T08:00:06-03:00",
+  "2026-6::2026-10-19_pre_2115": "2026-10-19T20:15:32-03:00",
+  "2026-7::2026-10-22_morning": "2026-10-22T08:00:50-03:00",
+  "2026-7::2026-10-22_pre_2115": "2026-10-22T20:35:37-03:00",
+  "2026-7::2026-10-25_morning": "2026-10-25T08:00:41-03:00",
+  "2026-7::2026-10-25_pre_1030": "2026-10-25T09:30:52-03:00",
+  "2026-7::2026-10-26_morning": "2026-10-26T08:00:14-03:00",
+  "2026-7::2026-10-26_pre_2115": "2026-10-26T20:15:06-03:00",
+  "2026-8::2026-10-29_morning": "2026-10-29T08:05:00-03:00",
+  "2026-8::2026-10-29_pre_2115": "2026-10-29T20:15:18-03:00",
+  "2026-8::2026-11-01_morning": "2026-11-01T08:01:03-03:00",
+  "2026-8::2026-11-01_pre_1500": "2026-11-01T14:01:00-03:00",
+  "2026-8::2026-11-02_morning": "2026-11-02T08:00:37-03:00",
+  "2026-8::2026-11-02_pre_2215": "2026-11-02T21:15:06-03:00",
+  "2026-9::2026-11-05_morning": "2026-11-05T08:00:24-03:00",
+  "2026-9::2026-11-05_pre_2215": "2026-11-05T21:15:04-03:00"
+ },
+ "analyses": {
+  "2026-9-4": [
+   {
+    "at": "2026-11-05T08:00:24-03:00",
+    "slot": "2026-11-05_morning",
+    "full": true,
+    "summary": "Mantemos a base titular por oferecer o maior teto de pontos contra a projeção superior do Squid Games (148.7 x 162.7). As mudanças são exclusivamente organizacionais: movemos titulares com status Questionable e que jogam mais tarde para os slots FLEX e SUPER_FLEX, maximizando a segurança e a flexibilidade para AutoSubs.",
+    "swaps": [],
+    "swaps_struct": [],
+    "moves": [
+     "George Pickens WR → FLEX (com Courtland Sutton)",
+     "Denzel Boston WR → FLEX (com Xavier Worthy)",
+     "Josh Allen QB → SUPER_FLEX (com C.J. Stroud)",
+     "Colston Loveland TE → FLEX (com Brock Bowers)"
+    ],
+    "autosubs": [
+     "Chig Okonkwo → George Pickens",
+     "Kenny Gainwell → Denzel Boston",
+     "Hunter Henry → Brock Bowers"
+    ],
+    "snapshot": {
+     "starters": [
+      "4984",
+      "7588",
+      "11586",
+      "8137",
+      "13346",
+      "9500",
+      "12517",
+      "5045",
+      "11624",
+      "11604",
+      "9758"
+     ],
+     "status": {
+      "8137": "Questionable",
+      "13346": "Questionable",
+      "6865": "Questionable",
+      "6819": "IR",
+      "13289": "Out",
+      "11626": "IR",
+      "8121": "IR",
+      "12534": "Questionable",
+      "9508": "Out",
+      "7567": "Questionable",
+      "3214": "Questionable",
+      "8125": "IR",
+      "3286": "IR"
+     },
+     "bench": [
+      "6865",
+      "6819",
+      "13289",
+      "8210",
+      "12510",
+      "13402",
+      "6039",
+      "11626",
+      "11562",
+      "12486",
+      "8121",
+      "12534",
+      "9508",
+      "7567",
+      "12718",
+      "11565",
+      "3976",
+      "3214",
+      "13330",
+      "12545",
+      "8125",
+      "3286",
+      "13418",
+      "8116",
+      "11157"
+     ],
+     "started": []
+    }
+   },
+   {
+    "at": "2026-11-05T21:15:04-03:00",
+    "slot": "2026-11-05_pre_2215",
+    "full": false,
+    "summary": "A análise anterior segue plenamente válida, mantendo a formação titular de maior projeção para buscar reverter a desvantagem contra o Squid Games. A volta de Kenny Gainwell à plena saúde fortalece a proteção via AutoSub para cobrir as dúvidas no FLEX.",
+    "swaps": [],
+    "swaps_struct": [],
+    "moves": [
+     "George Pickens WR → FLEX (com Courtland Sutton)",
+     "Denzel Boston WR → FLEX (com Xavier Worthy)",
+     "Josh Allen QB → SUPER_FLEX (com C.J. Stroud)"
+    ],
+    "autosubs": [
+     "Chig Okonkwo → George Pickens",
+     "Kenny Gainwell → Denzel Boston",
+     "Hunter Henry → Brock Bowers"
+    ],
+    "snapshot": {
+     "starters": [
+      "4984",
+      "7588",
+      "11586",
+      "8137",
+      "13346",
+      "9500",
+      "11604",
+      "5045",
+      "11624",
+      "12517",
+      "9758"
+     ],
+     "status": {
+      "8137": "Questionable",
+      "13346": "Questionable",
+      "6865": "Questionable",
+      "6819": "IR",
+      "13289": "Out",
+      "6039": "Questionable",
+      "11626": "IR",
+      "8121": "IR",
+      "12534": "Questionable",
+      "9508": "Out",
+      "3214": "Questionable",
+      "8125": "IR",
+      "3286": "IR"
+     },
+     "bench": [
+      "6865",
+      "6819",
+      "13289",
+      "8210",
+      "12510",
+      "13402",
+      "6039",
+      "11626",
+      "11562",
+      "12486",
+      "8121",
+      "12534",
+      "9508",
+      "7567",
+      "12718",
+      "11565",
+      "3976",
+      "3214",
+      "13330",
+      "12545",
+      "8125",
+      "3286",
+      "13418",
+      "8116",
+      "11157"
+     ],
+     "started": []
+    }
+   }
+  ]
+ }
+}

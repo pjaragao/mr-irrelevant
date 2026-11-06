@@ -1,0 +1,19 @@
+# systemd USER unit: keeps the Antigravity (agy) shim for Mr Irrelevant up across reboots and crashes.
+# Install:  cp ops/agy-shim.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user enable --now agy-shim
+# (needs `loginctl enable-linger $USER`, already on for this host). Logs: data/logs/agy_shim.log
+[Unit]
+Description=Antigravity (agy) OpenAI-compatible shim for Mr Irrelevant
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/paulojr/mr-irrelevant
+Environment=PATH=/home/paulojr/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/paulojr/mr-irrelevant/ops/agy_shim.sh run
+# the bind address (docker bridge) may not exist yet right after boot: retry until it does
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

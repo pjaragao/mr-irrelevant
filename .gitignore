@@ -1,0 +1,64 @@
+# data/ is the live Hermes home: whitelist only the source-of-truth config & code.
+data/*
+!data/config.yaml
+!data/.env.example
+!data/SOUL.md
+!data/league.yaml
+!data/plugins/
+!data/scripts/
+# skills: only ours are versioned (the rest of data/skills is the bundled Hermes catalogue)
+!data/skills/
+data/skills/*
+!data/skills/mr-irrelevant/
+# one directory per extra league (a Hermes profile): version only its configuration, never data or secrets
+!data/profiles/
+data/profiles/*
+!data/profiles/*/
+data/profiles/*/*
+!data/profiles/*/league.yaml
+!data/profiles/*/config.yaml
+!data/profiles/*/SOUL.md
+**/__pycache__/
+# league: regenerable caches / downloads / runtime state
+league/nfl_data/
+league/jev_cache.json
+league/round_injuries_cache.json
+league/injury_snapshots.json
+league/data_lab_dispatched.json
+league/*.tmp
+# league runtime state (dedupe, caches, live snapshots) — rewritten by the crons, not source of truth
+league/dispatched_slots.json
+league/dispatch_failures.json
+league/knowledge_base/synced_transactions.json
+league/knowledge_base/synced_weeks.json
+league/news_cache.json
+league/injuries_registry.json
+league/knowledge_base/injuries_registry.json
+league/knowledge_base/INJURY_REPORT.md
+league/master_nfl_players.json
+league/flavor_cache.json
+league/live_state.json
+league/provider_state.json
+league/eleicao_state.json
+league/league_profile.json
+# league.db is a rebuildable SQLite index (kb_db.py) of the tracked sources; generated exports are not versioned
+league/knowledge_base/league.db*
+league/knowledge_base/trades_history.json.lock
+league/knowledge_base/trades_history.json.tmp
+league/knowledge_base/TRADE_HISTORY.md
+league/charts_out/
+league/knowledge_base/player_points.json.lock
+
+# --- private data about real people: never published ---
+# raw WhatsApp group export, derived chat stats and per-manager personality profiles
+league/knowledge_base/chat_history_whatsapp.txt
+league/knowledge_base/chat_stats_summary.json
+league/knowledge_base/deep_profiles_raw.json
+league/knowledge_base/MANAGERS_PSYCHOLOGICAL_PROFILES.md
+# secrets / runtime
+.env
+*.env
+!*.env.example
+*.lock
+*.pid
+*.sock

@@ -1,0 +1,50 @@
+# Mr Irrelevant — isolated WhatsApp fantasy bot (Hermes Agent + Evolution API)
+#
+# Isolation: own HERMES_HOME (./data) + league engine (./league) ONLY.
+#   - no docker.sock, no /home mount, no access to the main Hermes (BotMaster) data
+#   - webhook reachable only on the internal docker network (Evolution → http://mr-irrelevant:8660)
+#   - API server / dashboard published on 127.0.0.1 only (dashboard credentials live in data/.env)
+#   - model tools restricted to the `liga` plugin tool (no terminal/files/code/browser)
+services:
+  mr-irrelevant:
+    # Pinned: the plugins import Hermes internals (gateway.platforms.*); upgrade deliberately, then re-test.
+    image: nousresearch/hermes-agent@sha256:9c5561579f3ffdf333401797094ac3a743738d6c25d40f4331c7bf77b694238d
+    container_name: mr-irrelevant
+    restart: unless-stopped
+    command: gateway run
+    env_file: ./data/.env
+    environment:
+      - TZ=America/Sao_Paulo
+      - HERMES_UID=1000
+      - HERMES_GID=1000
+      - LEAGUE_DIR=/opt/league
+      - SLEEPER_LEAGUE_ID=1312694161610113024
+    volumes:
+      - ./data:/opt/data
+      - ./league:/opt/league
+    ports:
+      - "127.0.0.1:8645:8642"
+      - "127.0.0.1:9121:9119"
+    expose:
+      - "8660"
+    networks:
+      - services_internal
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 1g
+    cpus: 1.0
+    pids_limit: 256
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8660/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
+    labels:
+      paulojr.stack: "mr-irrelevant"
+      paulojr.type: "bot"
+      paulojr.origin: "dockerhub"
+
+networks:
+  services_internal:
+    external: true

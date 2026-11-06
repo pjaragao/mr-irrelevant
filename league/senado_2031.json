@@ -1,0 +1,183 @@
+{
+ "fonte": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual (mandato 2023–2031 = legislaturas 57/58) · atual_por_partido = os 81 em exercício hoje",
+ "versao": "04/10/2026 20:59:28",
+ "senadores": [
+  {
+   "uf": "ac",
+   "nome": "Alan Rick",
+   "partido": "REPUBLICANOS",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "al",
+   "nome": "Renan Filho",
+   "partido": "MDB",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "am",
+   "nome": "Omar Aziz",
+   "partido": "PSD",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "ap",
+   "nome": "Davi Alcolumbre",
+   "partido": "UNIÃO",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "ba",
+   "nome": "Otto Alencar",
+   "partido": "PSD",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "ce",
+   "nome": "Camilo Santana",
+   "partido": "PT",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "df",
+   "nome": "Damares Alves",
+   "partido": "REPUBLICANOS",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "es",
+   "nome": "Magno Malta",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "go",
+   "nome": "Wilder Morais",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "ma",
+   "nome": "Lourdinha Pereira",
+   "partido": "PSB",
+   "participacao": "2º Suplente"
+  },
+  {
+   "uf": "mg",
+   "nome": "Cleitinho",
+   "partido": "REPUBLICANOS",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "ms",
+   "nome": "Tereza Cristina",
+   "partido": "PP",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "mt",
+   "nome": "Wellington Fagundes",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "pa",
+   "nome": "Beto Faro",
+   "partido": "PT",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "pb",
+   "nome": "Efraim Filho",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "pe",
+   "nome": "Teresa Leitão",
+   "partido": "PT",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "pi",
+   "nome": "Jussara Lima",
+   "partido": "PSD",
+   "participacao": "1º Suplente"
+  },
+  {
+   "uf": "pr",
+   "nome": "Sergio Moro",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "rj",
+   "nome": "Romário",
+   "partido": "S/Partido",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "rn",
+   "nome": "Rogerio Marinho",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "ro",
+   "nome": "Jaime Bagattoli",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "rr",
+   "nome": "Dr. Hiran",
+   "partido": "PP",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "rs",
+   "nome": "Hamilton Mourão",
+   "partido": "REPUBLICANOS",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "sc",
+   "nome": "Jorge Seif",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "se",
+   "nome": "Laércio Oliveira",
+   "partido": "PP",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "sp",
+   "nome": "Astronauta Marcos Pontes",
+   "partido": "PL",
+   "participacao": "Titular"
+  },
+  {
+   "uf": "to",
+   "nome": "Professora Dorinha Seabra",
+   "partido": "UNIÃO",
+   "participacao": "Titular"
+  }
+ ],
+ "atual_por_partido": {
+  "PL": 15,
+  "PSD": 14,
+  "MDB": 9,
+  "PT": 9,
+  "PP": 8,
+  "PSB": 6,
+  "REPUBLICANOS": 6,
+  "PSDB": 4,
+  "PODE": 3,
+  "UNIÃO": 3,
+  "PDT": 2,
+  "AVANTE": 1,
+  "S/Partido": 1
+ }
+}

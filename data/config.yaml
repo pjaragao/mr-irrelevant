@@ -1,0 +1,117 @@
+model:
+  # Chat path: Antigravity CLI (agy) through the host shim (`providers.agy` below, ops/agy_shim.sh / systemd unit
+  # agy-shim.service). `gemini-flash-latest` = always the newest Gemini Flash (Low effort): agy has no such alias, so the
+  # shim resolves it from `agy models`. The shim picks the model, this name is informational; to pin an id or change
+  # the effort set AGY_SHIM_MODEL / AGY_SHIM_EFFORT in data/.env. If it fails or times out, the fallback chain takes over.
+  default: gemini-flash-latest
+  provider: agy
+  api_mode: chat_completions
+# Named provider: OpenAI-compatible shim in front of the `agy` CLI, listening on the docker bridge of this container
+# (token in data/.env as AGY_SHIM_TOKEN). The shim runs on the host, not in the container.
+providers:
+  agy:
+    base_url: http://172.26.0.1:8787/v1
+    key_env: AGY_SHIM_TOKEN
+    api_mode: chat_completions
+# Fallback chain, in order, after the primary above: all free OpenRouter models. (Gemini 3.5 Flash-Lite, paid, was
+# removed from the chain; re-add `- provider: gemini / model: gemini-3.5-flash-lite` as a last resort if wanted.)
+fallback_providers:
+  - provider: openrouter
+    model: nvidia/nemotron-3-ultra-550b-a55b:free
+  - provider: openrouter
+    model: google/gemma-4-31b-it:free
+  - provider: openrouter
+    model: nvidia/nemotron-3.5-lightning:free
+agent:
+  # Model calls per answer. The agy shim stops offering tools after AGY_SHIM_MAX_TOOL_ROUNDS (default 6) rounds and asks
+  # for the final answer; keep that <= max_turns - 2, otherwise a long lookup can end in "no response was generated".
+  max_turns: 8
+  reasoning_effort: low
+  verbose: false
+  context_length: 64000
+auxiliary:
+  compression:
+    provider: agy
+    model: gemini-flash-latest
+    reasoning_effort: low
+  title_generation:
+    provider: agy
+    model: gemini-flash-latest
+    reasoning_effort: low
+terminal:
+  backend: local
+  cwd: /opt/data/workspace
+plugins:
+  enabled:
+    - evolution-whatsapp
+    - sleeper-league
+platform_toolsets:
+  evolution:
+    - liga
+    - tts
+  cron:
+    - liga
+  cli:
+    - liga
+  api_server:
+    - liga
+group_sessions_per_user: false
+# Hermes 0.21 ignores `session_reset` (time never resets a routed session). The daily reset is done by the
+# `session-reset` cron (scripts/session_reset.py, 05:00).
+compression:
+  enabled: true
+  threshold: 0.35
+  target_ratio: 0.2
+  protect_last_n: 6
+  protect_first_n: 2
+  # Group chat re-sends history every turn: prune bulky old tool reports early (no LLM cost).
+  proactive_prune_tokens: 12000
+  proactive_prune_min_result_chars: 1500
+  proactive_prune_min_reclaim_tokens: 2000
+# Voice replies: Edge TTS (free, default provider) with the pt-BR Antonio voice. The bot answers in audio ONLY when
+# someone explicitly asks (SOUL.md rule + the `tts` tool); automatic voice replies stay off.
+tts:
+  provider: edge
+  edge:
+    voice: pt-BR-AntonioNeural
+voice:
+  auto_tts: false
+memory:
+  memory_enabled: false
+  user_profile_enabled: false
+display:
+  busy_input_mode: queue
+  busy_ack_enabled: false
+  show_reasoning: false
+  streaming: false
+  platforms:
+    evolution:
+      tool_progress: 'off'
+      interim_assistant_messages: false
+      long_running_notifications: false
+      busy_ack_detail: false
+      streaming: false
+streaming:
+  enabled: false
+stt:
+  enabled: false
+telemetry:
+  shared_metrics:
+    enabled: false
+updates:
+  pre_update_backup: false
+timezone: America/Sao_Paulo
+onboarding:
+  seen:
+    profile_build_offered: true
+# `liga` is the only tool: expose it directly (no tool_search/tool_describe round-trips).
+tools:
+  tool_search:
+    enabled: "off"
+platforms:
+  evolution:
+    enabled: true
+    gateway_restart_notification: false   # never post "Gateway shutting down/online" in the group
+cron:
+  wrap_response: false   # deliver cron output as a clean WhatsApp message (no "Cronjob Response" header)
+_config_version: 51

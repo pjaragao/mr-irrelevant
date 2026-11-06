@@ -1,0 +1,59 @@
+name: evolution-whatsapp
+label: WhatsApp (Evolution API)
+kind: platform
+version: 1.0.0
+description: >
+  WhatsApp via an external Evolution API instance. Inbound: Evolution webhook
+  (MESSAGES_UPSERT) with a shared-token header. Outbound: Evolution REST
+  sendText. Group replies only when the bot is mentioned/named/replied to.
+author: BotMaster (Paulo Jr)
+requires_env:
+  - name: EVOLUTION_API_URL
+    description: "Evolution API base URL (e.g. http://evolution-api:8080)"
+    prompt: "Evolution API URL"
+    password: false
+  - name: EVOLUTION_API_KEY
+    description: "Evolution API key (apikey header)"
+    prompt: "Evolution API key"
+    password: true
+  - name: EVOLUTION_INSTANCE
+    description: "Evolution instance name"
+    prompt: "Instance"
+    password: false
+optional_env:
+  - name: EVOLUTION_WEBHOOK_TOKEN
+    description: "Shared secret Evolution must send in the X-Webhook-Token header"
+    prompt: "Webhook token"
+    password: true
+  - name: EVOLUTION_WEBHOOK_PORT
+    description: "Webhook listen port (default 8660)"
+    prompt: "Port"
+    password: false
+  - name: EVOLUTION_ALLOWED_GROUPS
+    description: "Comma-separated group JIDs the bot answers in"
+    prompt: "Groups"
+    password: false
+  - name: EVOLUTION_DM_ALLOWED
+    description: "Comma-separated phone digits / LIDs allowed to DM the bot"
+    prompt: "DM allowlist"
+    password: false
+  - name: EVOLUTION_ADMINS
+    description: "Comma-separated phone digits / LIDs treated as verified admins"
+    prompt: "Admins"
+    password: false
+  - name: EVOLUTION_BOT_IDS
+    description: "Comma-separated bot phone digits / LID (mention + reply detection)"
+    prompt: "Bot ids"
+    password: false
+  - name: EVOLUTION_MENTION_REGEX
+    description: "Case-insensitive regex that also summons the bot in groups"
+    prompt: "Mention regex"
+    password: false
+  - name: EVOLUTION_HOME_CHANNEL
+    description: "Default chat for cron deliveries (group JID)"
+    prompt: "Home channel"
+    password: false
+  - name: EVOLUTION_ALLOW_ALL_USERS
+    description: "Let every sender that passes the adapter gate reach the agent"
+    prompt: "Allow all? (true/false)"
+    password: false

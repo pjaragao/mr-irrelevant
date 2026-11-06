@@ -1,0 +1,1141 @@
+{
+  "1": {
+    "roster_id": 1,
+    "canonical_manager": "marinh012",
+    "real_name": "Marinho",
+    "current_team": "MOC’s Outcasts",
+    "aliases": [
+      "marinh012",
+      "marinho",
+      "moc",
+      "outcasts",
+      "mocs outcasts",
+      "villains",
+      "burnt ranch",
+      "bulldogs",
+      "burnt ranch bulldogs",
+      "mocs villains"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "227434416727650304",
+        "sleeper_display_name": "marinh012",
+        "team_name": "Burnt Ranch Bulldogs",
+        "wins": 7,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 2163.02
+      },
+      "2023": {
+        "owner_id": "227434416727650304",
+        "sleeper_display_name": "marinh012",
+        "team_name": "MOC’s Villains",
+        "wins": 11,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 2329.46
+      },
+      "2024": {
+        "owner_id": "227434416727650304",
+        "sleeper_display_name": "marinh012",
+        "team_name": "MOC’s Outcasts",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2179.08
+      },
+      "2025": {
+        "owner_id": "227434416727650304",
+        "sleeper_display_name": "marinh012",
+        "team_name": "MOC’s Outcasts",
+        "wins": 11,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 2006.72
+      },
+      "2026": {
+        "owner_id": "227434416727650304",
+        "sleeper_display_name": "marinh012",
+        "team_name": "MOC’s Outcasts",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 180.6
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "227434416727650304",
+        "manager_name": "marinh012",
+        "sleeper_user": "marinh012",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Burnt Ranch Bulldogs",
+        "start_season": "2022",
+        "end_season": "2022",
+        "seasons": [
+          "2022"
+        ]
+      },
+      {
+        "team_name": "MOC’s Villains",
+        "start_season": "2023",
+        "end_season": "2023",
+        "seasons": [
+          "2023"
+        ]
+      },
+      {
+        "team_name": "MOC’s Outcasts",
+        "start_season": "2024",
+        "end_season": "2026",
+        "seasons": [
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "roster_id": 2,
+    "canonical_manager": "leomoraes",
+    "real_name": "Léo Moraes",
+    "current_team": "Vai que Vikings",
+    "aliases": [
+      "leomoraes",
+      "leo moraes",
+      "leo",
+      "moraes",
+      "vikings",
+      "vai que vikings"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "695319891003121664",
+        "sleeper_display_name": "leomoraes",
+        "team_name": "Vai que Vikings",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1944.6
+      },
+      "2023": {
+        "owner_id": "695319891003121664",
+        "sleeper_display_name": "leomoraes",
+        "team_name": "Vai que Vikings",
+        "wins": 12,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 2297.78
+      },
+      "2024": {
+        "owner_id": "695319891003121664",
+        "sleeper_display_name": "leomoraes",
+        "team_name": "Vai que Vikings",
+        "wins": 4,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1759.46
+      },
+      "2025": {
+        "owner_id": "695319891003121664",
+        "sleeper_display_name": "leomoraes",
+        "team_name": "Vai que Vikings",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1991.88
+      },
+      "2026": {
+        "owner_id": "695319891003121664",
+        "sleeper_display_name": "leomoraes",
+        "team_name": "Vai que Vikings",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 148.1
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "695319891003121664",
+        "manager_name": "leomoraes",
+        "sleeper_user": "leomoraes",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Vai que Vikings",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "3": {
+    "roster_id": 3,
+    "canonical_manager": "rafastw",
+    "real_name": "Rafa",
+    "current_team": "PsicoPanda",
+    "aliases": [
+      "rafastw",
+      "rafa",
+      "psicopanda",
+      "panda",
+      "pandas",
+      "nuclear pandas"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "329452159580004352",
+        "sleeper_display_name": "rafastw",
+        "team_name": "Nuclear Pandas",
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1945.48
+      },
+      "2023": {
+        "owner_id": "329452159580004352",
+        "sleeper_display_name": "rafastw",
+        "team_name": "PsicoPanda",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1817.28
+      },
+      "2024": {
+        "owner_id": "329452159580004352",
+        "sleeper_display_name": "rafastw",
+        "team_name": "PsicoPanda",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1693.36
+      },
+      "2025": {
+        "owner_id": "329452159580004352",
+        "sleeper_display_name": "rafastw",
+        "team_name": "PsicoPanda",
+        "wins": 2,
+        "losses": 12,
+        "ties": 0,
+        "points_for": 1624.32
+      },
+      "2026": {
+        "owner_id": "329452159580004352",
+        "sleeper_display_name": "rafastw",
+        "team_name": "PsicoPanda",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 156.32
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "329452159580004352",
+        "manager_name": "rafastw",
+        "sleeper_user": "rafastw",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Nuclear Pandas",
+        "start_season": "2022",
+        "end_season": "2022",
+        "seasons": [
+          "2022"
+        ]
+      },
+      {
+        "team_name": "PsicoPanda",
+        "start_season": "2023",
+        "end_season": "2026",
+        "seasons": [
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "4": {
+    "roster_id": 4,
+    "canonical_manager": "FloripaAstros",
+    "real_name": "Paulo Aragão Jr",
+    "current_team": "Floripa Astros",
+    "aliases": [
+      "floripaastros",
+      "floripa",
+      "astros",
+      "paulo_aragao_jr",
+      "paulo aragao",
+      "paulo",
+      "paulo jr",
+      "aragao",
+      "floripa astros"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "438721256343203840",
+        "sleeper_display_name": "Paulo_Aragao_Jr",
+        "team_name": "Floripa Astros",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1820.94
+      },
+      "2023": {
+        "owner_id": "438721256343203840",
+        "sleeper_display_name": "Paulo_Aragao_Jr",
+        "team_name": "Floripa Astros",
+        "wins": 0,
+        "losses": 14,
+        "ties": 0,
+        "points_for": 1180.9
+      },
+      "2024": {
+        "owner_id": "438721256343203840",
+        "sleeper_display_name": "Paulo_Aragao_Jr",
+        "team_name": "Floripa Astros",
+        "wins": 2,
+        "losses": 12,
+        "ties": 0,
+        "points_for": 1594.06
+      },
+      "2025": {
+        "owner_id": "438721256343203840",
+        "sleeper_display_name": "Paulo_Aragao_Jr",
+        "team_name": "Floripa Astros",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1868.34
+      },
+      "2026": {
+        "owner_id": "438721256343203840",
+        "sleeper_display_name": "Paulo_Aragao_Jr",
+        "team_name": "Floripa Astros",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 104.32
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "438721256343203840",
+        "manager_name": "FloripaAstros",
+        "sleeper_user": "Paulo_Aragao_Jr",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Floripa Astros",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "5": {
+    "roster_id": 5,
+    "canonical_manager": "TennesseeTITOs",
+    "real_name": "Tito",
+    "current_team": "Tennessee TITOs",
+    "aliases": [
+      "tennesseetitos",
+      "tito",
+      "titos",
+      "tennessee",
+      "titans",
+      "tennessee titos"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "439153930354552832",
+        "sleeper_display_name": "TennesseeTITOs",
+        "team_name": "Tennessee TITOs",
+        "wins": 11,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 2199.84
+      },
+      "2023": {
+        "owner_id": "439153930354552832",
+        "sleeper_display_name": "TennesseeTITOs",
+        "team_name": "Tennessee TITOs",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2043.36
+      },
+      "2024": {
+        "owner_id": "439153930354552832",
+        "sleeper_display_name": "TennesseeTITOs",
+        "team_name": "Tennessee TITOs",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2261.64
+      },
+      "2025": {
+        "owner_id": "439153930354552832",
+        "sleeper_display_name": "TennesseeTITOs",
+        "team_name": "Tennessee TITOs",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1963.42
+      },
+      "2026": {
+        "owner_id": "439153930354552832",
+        "sleeper_display_name": "TennesseeTITOs",
+        "team_name": "Tennessee TITOs",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 157.28
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "439153930354552832",
+        "manager_name": "TennesseeTITOs",
+        "sleeper_user": "TennesseeTITOs",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Tennessee TITOs",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "6": {
+    "roster_id": 6,
+    "canonical_manager": "fchevarria",
+    "real_name": "Felipe Chevarria",
+    "current_team": "Westeros Borrachos",
+    "aliases": [
+      "fchevarria",
+      "chevarria",
+      "borrachos",
+      "westeros",
+      "borrachos fc",
+      "westeros borrachos"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "328948836854693888",
+        "sleeper_display_name": "fchevarria",
+        "team_name": "Borrachos FC",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1615.26
+      },
+      "2023": {
+        "owner_id": "328948836854693888",
+        "sleeper_display_name": "fchevarria",
+        "team_name": "Borrachos FC",
+        "wins": 2,
+        "losses": 12,
+        "ties": 0,
+        "points_for": 1208.92
+      },
+      "2024": {
+        "owner_id": "328948836854693888",
+        "sleeper_display_name": "fchevarria",
+        "team_name": "Borrachos FC",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1759.34
+      },
+      "2025": {
+        "owner_id": "328948836854693888",
+        "sleeper_display_name": "fchevarria",
+        "team_name": "Westeros Borrachos",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1968.66
+      },
+      "2026": {
+        "owner_id": "328948836854693888",
+        "sleeper_display_name": "fchevarria",
+        "team_name": "Westeros Borrachos",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 155.56
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "328948836854693888",
+        "manager_name": "fchevarria",
+        "sleeper_user": "fchevarria",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Borrachos FC",
+        "start_season": "2022",
+        "end_season": "2024",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      {
+        "team_name": "Westeros Borrachos",
+        "start_season": "2025",
+        "end_season": "2026",
+        "seasons": [
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "7": {
+    "roster_id": 7,
+    "canonical_manager": "aribruno",
+    "real_name": "Ari Bruno",
+    "current_team": "Ari Chameleons",
+    "aliases": [
+      "aribruno",
+      "ari",
+      "chameleons",
+      "kobrasol",
+      "ari chameleons",
+      "kobrasol high achiever"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "505797770459090944",
+        "sleeper_display_name": "aribruno",
+        "team_name": "Kobrasol High Achiever",
+        "wins": 7,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 2037.22
+      },
+      "2023": {
+        "owner_id": "505797770459090944",
+        "sleeper_display_name": "aribruno",
+        "team_name": "Ari Chameleons",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2211.1
+      },
+      "2024": {
+        "owner_id": "505797770459090944",
+        "sleeper_display_name": "aribruno",
+        "team_name": "Ari Chameleons",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2214.14
+      },
+      "2025": {
+        "owner_id": "505797770459090944",
+        "sleeper_display_name": "aribruno",
+        "team_name": "Ari Chameleons",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1586.2
+      },
+      "2026": {
+        "owner_id": "505797770459090944",
+        "sleeper_display_name": "aribruno",
+        "team_name": "Ari Chameleons",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 96.72
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "505797770459090944",
+        "manager_name": "aribruno",
+        "sleeper_user": "aribruno",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Kobrasol High Achiever",
+        "start_season": "2022",
+        "end_season": "2022",
+        "seasons": [
+          "2022"
+        ]
+      },
+      {
+        "team_name": "Ari Chameleons",
+        "start_season": "2023",
+        "end_season": "2026",
+        "seasons": [
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "8": {
+    "roster_id": 8,
+    "canonical_manager": "Riedelons",
+    "real_name": "Riedel",
+    "current_team": "Riedelots",
+    "aliases": [
+      "riedelons",
+      "riedel",
+      "riedelots",
+      "ridelots"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "439217119498858496",
+        "sleeper_display_name": "Riedelons",
+        "team_name": "Riedelots",
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 2058.44
+      },
+      "2023": {
+        "owner_id": "439217119498858496",
+        "sleeper_display_name": "Riedelons",
+        "team_name": "Riedelots",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1788.52
+      },
+      "2024": {
+        "owner_id": "439217119498858496",
+        "sleeper_display_name": "Riedelons",
+        "team_name": "Riedelots",
+        "wins": 12,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 2365.68
+      },
+      "2025": {
+        "owner_id": "439217119498858496",
+        "sleeper_display_name": "Riedelons",
+        "team_name": "Riedelots",
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 2120.14
+      },
+      "2026": {
+        "owner_id": "439217119498858496",
+        "sleeper_display_name": "Riedelons",
+        "team_name": "Riedelots",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 147.2
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "439217119498858496",
+        "manager_name": "Riedelons",
+        "sleeper_user": "Riedelons",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Riedelots",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "9": {
+    "roster_id": 9,
+    "canonical_manager": "luizfelipesouza",
+    "real_name": "Luiz Felipe",
+    "current_team": "Squid Games",
+    "aliases": [
+      "luizfelipesouza",
+      "luiz felipe",
+      "luiz",
+      "squid",
+      "squid games"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "438849784434913280",
+        "sleeper_display_name": "luizfelipesouza",
+        "team_name": "Squid Games",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2092.0
+      },
+      "2023": {
+        "owner_id": "438849784434913280",
+        "sleeper_display_name": "luizfelipesouza",
+        "team_name": "Squid Games",
+        "wins": 9,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1978.82
+      },
+      "2024": {
+        "owner_id": "438849784434913280",
+        "sleeper_display_name": "luizfelipesouza",
+        "team_name": "Squid Games",
+        "wins": 9,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 2076.38
+      },
+      "2025": {
+        "owner_id": "438849784434913280",
+        "sleeper_display_name": "luizfelipesouza",
+        "team_name": "Squid Games",
+        "wins": 9,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1896.78
+      },
+      "2026": {
+        "owner_id": "438849784434913280",
+        "sleeper_display_name": "luizfelipesouza",
+        "team_name": "Squid Games",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 130.58
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "438849784434913280",
+        "manager_name": "luizfelipesouza",
+        "sleeper_user": "luizfelipesouza",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Squid Games",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "10": {
+    "roster_id": 10,
+    "canonical_manager": "eduohira",
+    "real_name": "Eduardo Ohira",
+    "current_team": "Tomorrowland",
+    "aliases": [
+      "eduohira",
+      "edu",
+      "ohira",
+      "eduardo",
+      "eduardo ohira",
+      "tomorrowland"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "385230630449008640",
+        "sleeper_display_name": "eduohira",
+        "team_name": "Tomorrowland",
+        "wins": 1,
+        "losses": 13,
+        "ties": 0,
+        "points_for": 1233.36
+      },
+      "2023": {
+        "owner_id": "385230630449008640",
+        "sleeper_display_name": "eduohira",
+        "team_name": "Tomorrowland",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1735.46
+      },
+      "2024": {
+        "owner_id": "385230630449008640",
+        "sleeper_display_name": "eduohira",
+        "team_name": "Tomorrowland",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1604.52
+      },
+      "2025": {
+        "owner_id": "385230630449008640",
+        "sleeper_display_name": "eduohira",
+        "team_name": "Tomorrowland",
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 2168.08
+      },
+      "2026": {
+        "owner_id": "385230630449008640",
+        "sleeper_display_name": "eduohira",
+        "team_name": "Tomorrowland",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 132.48
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "385230630449008640",
+        "manager_name": "eduohira",
+        "sleeper_user": "eduohira",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Tomorrowland",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "11": {
+    "roster_id": 11,
+    "canonical_manager": "Ayahuasquers",
+    "real_name": "Ayahuasquers",
+    "current_team": "Bayer Kaxinawás",
+    "aliases": [
+      "ayahuasquers",
+      "ayahuasca",
+      "kaxinawas",
+      "bayer",
+      "bayer kaxinawas"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "475053730597695488",
+        "sleeper_display_name": "Ayahuasquers",
+        "team_name": "Bayer Kaxinawás",
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1689.26
+      },
+      "2023": {
+        "owner_id": "475053730597695488",
+        "sleeper_display_name": "Ayahuasquers",
+        "team_name": "Bayer Kaxinawás",
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1996.62
+      },
+      "2024": {
+        "owner_id": "475053730597695488",
+        "sleeper_display_name": "Ayahuasquers",
+        "team_name": "Bayer Kaxinawás",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2308.16
+      },
+      "2025": {
+        "owner_id": "475053730597695488",
+        "sleeper_display_name": "Ayahuasquers",
+        "team_name": "Bayer Kaxinawás",
+        "wins": 13,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 2399.52
+      },
+      "2026": {
+        "owner_id": "475053730597695488",
+        "sleeper_display_name": "Ayahuasquers",
+        "team_name": "Bayer Kaxinawás",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 162.58
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "475053730597695488",
+        "manager_name": "Ayahuasquers",
+        "sleeper_user": "Ayahuasquers",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Bayer Kaxinawás",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  },
+  "12": {
+    "roster_id": 12,
+    "canonical_manager": "JonathanMachado17",
+    "real_name": "Jonathan Machado",
+    "current_team": "Arnhem Miners",
+    "aliases": [
+      "jonathanmachado17",
+      "jonathan",
+      "machado",
+      "criciuma",
+      "arnhem",
+      "miners",
+      "criciuma miners",
+      "arnhem miners"
+    ],
+    "seasons": {
+      "2022": {
+        "owner_id": "829415451175034880",
+        "sleeper_display_name": "JonathanMachado17",
+        "team_name": "Criciúma Miners",
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 2168.2
+      },
+      "2023": {
+        "owner_id": "829415451175034880",
+        "sleeper_display_name": "JonathanMachado17",
+        "team_name": "Arnhem Miners",
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1946.7
+      },
+      "2024": {
+        "owner_id": "829415451175034880",
+        "sleeper_display_name": "JonathanMachado17",
+        "team_name": "Arnhem Miners",
+        "wins": 2,
+        "losses": 12,
+        "ties": 0,
+        "points_for": 1359.96
+      },
+      "2025": {
+        "owner_id": "829415451175034880",
+        "sleeper_display_name": "JonathanMachado17",
+        "team_name": "Arnhem Miners",
+        "wins": 0,
+        "losses": 14,
+        "ties": 0,
+        "points_for": 1156.08
+      },
+      "2026": {
+        "owner_id": "829415451175034880",
+        "sleeper_display_name": "JonathanMachado17",
+        "team_name": "Arnhem Miners",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 108.32
+      }
+    },
+    "managers_history": [
+      {
+        "owner_id": "829415451175034880",
+        "manager_name": "JonathanMachado17",
+        "sleeper_user": "JonathanMachado17",
+        "start_season": "2022",
+        "end_season": "2026",
+        "seasons": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ],
+    "teams_history": [
+      {
+        "team_name": "Criciúma Miners",
+        "start_season": "2022",
+        "end_season": "2022",
+        "seasons": [
+          "2022"
+        ]
+      },
+      {
+        "team_name": "Arnhem Miners",
+        "start_season": "2023",
+        "end_season": "2026",
+        "seasons": [
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    ]
+  }
+}

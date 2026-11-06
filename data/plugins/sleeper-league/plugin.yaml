@@ -1,0 +1,7 @@
+name: sleeper-league
+version: 2.0.0
+description: "High Stakes Fantasy (Sleeper) — one compact in-process tool `liga` over the league engine in $LEAGUE_DIR (standings, matchups, live analysis, H2H, dossiers, trades, drafts, waivers, injuries incl. post-game round injuries)."
+author: BotMaster (Paulo Jr)
+kind: backend
+provides_tools:
+  - liga

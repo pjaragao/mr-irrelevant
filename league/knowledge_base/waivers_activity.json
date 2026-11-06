@@ -1,0 +1,4486 @@
+{
+  "activity": [
+    {
+      "transaction_id": "1423666470818209792",
+      "roster_id": 8,
+      "created_ts": 1793791046.389,
+      "type": "waiver",
+      "date": "04/11/2026 08:17",
+      "week": 9,
+      "season": "2026",
+      "manager": "Riedelons",
+      "team_name": "Riedelots",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "5985",
+          "name": "Foster Moreau",
+          "position": "TE",
+          "team": "HOU"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1423550154178412544",
+      "roster_id": 2,
+      "created_ts": 1793763314.341,
+      "type": "waiver",
+      "date": "04/11/2026 00:35",
+      "week": 8,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "7562",
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1423449982836432896",
+      "roster_id": 9,
+      "created_ts": 1793739431.632,
+      "type": "waiver",
+      "date": "03/11/2026 17:57",
+      "week": 8,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 50,
+      "adds": [
+        {
+          "player_id": "13350",
+          "name": "Joe Fagnano",
+          "position": "QB",
+          "team": "BAL"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1423040076899692544",
+      "roster_id": 1,
+      "created_ts": 1793641702.44,
+      "type": "free_agent",
+      "date": "02/11/2026 14:48",
+      "week": 8,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11616",
+          "name": "Jacob Cowing",
+          "position": "WR",
+          "team": "SF"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1422649995667996672",
+      "roster_id": 9,
+      "created_ts": 1793548699.827,
+      "type": "free_agent",
+      "date": "01/11/2026 12:58",
+      "week": 8,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13277",
+          "name": "CJ Donaldson",
+          "position": "RB",
+          "team": "NO"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1422591882667491328",
+      "roster_id": 4,
+      "created_ts": 1793534844.608,
+      "type": "free_agent",
+      "date": "01/11/2026 09:07",
+      "week": 8,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12467",
+          "name": "Jordan James",
+          "position": "RB",
+          "team": "SF"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1421341771631185920",
+      "roster_id": 10,
+      "created_ts": 1793236794.912,
+      "type": "waiver",
+      "date": "28/10/2026 22:19",
+      "week": 8,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 36,
+      "adds": [
+        {
+          "player_id": "12457",
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1421341181832355840",
+      "roster_id": 10,
+      "created_ts": 1793236654.292,
+      "type": "waiver",
+      "date": "28/10/2026 22:17",
+      "week": 8,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 36,
+      "adds": [
+        {
+          "player_id": "7561",
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1421239594149580800",
+      "roster_id": 1,
+      "created_ts": 1793212433.902,
+      "type": "waiver",
+      "date": "28/10/2026 15:33",
+      "week": 8,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12502",
+          "name": "Gunnar Helm",
+          "position": "TE",
+          "team": "TEN"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1420850461132480512",
+      "roster_id": 5,
+      "created_ts": 1793119657.36,
+      "type": "free_agent",
+      "date": "27/10/2026 13:47",
+      "week": 7,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8177",
+          "name": "Grant Calcaterra",
+          "position": "TE",
+          "team": "PHI"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1420069828323999744",
+      "roster_id": 2,
+      "created_ts": 1792933539.996,
+      "type": "free_agent",
+      "date": "25/10/2026 10:05",
+      "week": 7,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "7565",
+          "name": "Terrace Marshall",
+          "position": "WR",
+          "team": null
+        }
+      ]
+    },
+    {
+      "transaction_id": "1420069681275932672",
+      "roster_id": 2,
+      "created_ts": 1792933504.936,
+      "type": "free_agent",
+      "date": "25/10/2026 10:05",
+      "week": 7,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12462",
+          "name": "Damien Martinez",
+          "position": "RB",
+          "team": null
+        }
+      ]
+    },
+    {
+      "transaction_id": "1419907323299696640",
+      "roster_id": 12,
+      "created_ts": 1792894795.779,
+      "type": "waiver",
+      "date": "24/10/2026 23:19",
+      "week": 7,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "7039",
+          "name": "Cody White",
+          "position": "WR",
+          "team": "LV"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1419507905849253888",
+      "roster_id": 9,
+      "created_ts": 1792799567.237,
+      "type": "waiver",
+      "date": "23/10/2026 20:52",
+      "week": 7,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "7608",
+          "name": "Khalil Herbert",
+          "position": "RB",
+          "team": "ATL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "2359",
+          "name": "Ameer Abdullah",
+          "position": "RB",
+          "team": "JAX"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1418825339076980736",
+      "roster_id": 3,
+      "created_ts": 1792636830.637,
+      "type": "waiver",
+      "date": "21/10/2026 23:40",
+      "week": 7,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12863",
+          "name": "Andrew Armstrong",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12502",
+          "name": "Gunnar Helm",
+          "position": "TE",
+          "team": "TEN"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1418633374649655296",
+      "roster_id": 1,
+      "created_ts": 1792591062.752,
+      "type": "waiver",
+      "date": "21/10/2026 10:57",
+      "week": 7,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 11,
+      "adds": [
+        {
+          "player_id": "12634",
+          "name": "Jordan Watkins",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11574",
+          "name": "Dylan Laube",
+          "position": "RB",
+          "team": "LV"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1418250939848052736",
+      "roster_id": 9,
+      "created_ts": 1792499883.19,
+      "type": "waiver",
+      "date": "20/10/2026 09:38",
+      "week": 6,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 40,
+      "adds": [
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "7039",
+          "name": "Cody White",
+          "position": "WR",
+          "team": "LV"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1418228277192966144",
+      "roster_id": 12,
+      "created_ts": 1792494479.992,
+      "type": "waiver",
+      "date": "20/10/2026 08:07",
+      "week": 6,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 3,
+      "adds": [
+        {
+          "player_id": "11588",
+          "name": "Jawhar Jordan",
+          "position": "RB",
+          "team": "HOU"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1418846206053851136",
+      "roster_id": 11,
+      "created_ts": 1792641805.712,
+      "type": "free_agent",
+      "date": "22/10/2026 01:03",
+      "week": 7,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8117",
+          "name": "Jalen Tolbert",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1417736101170253824",
+      "roster_id": 12,
+      "created_ts": 1792377136.083,
+      "type": "free_agent",
+      "date": "18/10/2026 23:32",
+      "week": 6,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6149",
+          "name": "Darius Slayton",
+          "position": "WR",
+          "team": null
+        }
+      ]
+    },
+    {
+      "transaction_id": "1417406577681461248",
+      "roster_id": 3,
+      "created_ts": 1792298571.561,
+      "type": "waiver",
+      "date": "18/10/2026 01:42",
+      "week": 6,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 7,
+      "adds": [
+        {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12700",
+          "name": "Gavin Bartholomew",
+          "position": "TE",
+          "team": "MIN"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1416908640748666880",
+      "roster_id": 1,
+      "created_ts": 1792179854.146,
+      "type": "waiver",
+      "date": "16/10/2026 16:44",
+      "week": 6,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 167,
+      "adds": [
+        {
+          "player_id": "11557",
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "PHI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1416646712017088512",
+      "roster_id": 12,
+      "created_ts": 1792117405.47,
+      "type": "waiver",
+      "date": "15/10/2026 23:23",
+      "week": 6,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13335",
+          "name": "Cole Payton",
+          "position": "QB",
+          "team": "PHI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1416244391122608128",
+      "roster_id": 3,
+      "created_ts": 1792021484.693,
+      "type": "waiver",
+      "date": "14/10/2026 20:44",
+      "week": 6,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12700",
+          "name": "Gavin Bartholomew",
+          "position": "TE",
+          "team": "MIN"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "4179",
+          "name": "Joshua Dobbs",
+          "position": "QB",
+          "team": "DET"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1416244290534846464",
+      "roster_id": 3,
+      "created_ts": 1792021460.711,
+      "type": "waiver",
+      "date": "14/10/2026 20:44",
+      "week": 6,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 5,
+      "adds": [
+        {
+          "player_id": "10231",
+          "name": "Elijah Higgins",
+          "position": "TE",
+          "team": "ARI"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "6931",
+          "name": "DeeJay Dallas",
+          "position": "RB",
+          "team": "MIN"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1415881344784814081",
+      "roster_id": 11,
+      "created_ts": 1791934927.701,
+      "type": "waiver",
+      "date": "13/10/2026 20:42",
+      "week": 5,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "12544",
+          "name": "LeQuint Allen",
+          "position": "RB",
+          "team": "JAX"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1415771864197812224",
+      "roster_id": 3,
+      "created_ts": 1791908825.496,
+      "type": "waiver",
+      "date": "13/10/2026 13:27",
+      "week": 5,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 22,
+      "adds": [
+        {
+          "player_id": "2197",
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1415423114854031360",
+      "roster_id": 1,
+      "created_ts": 1791825677.172,
+      "type": "waiver",
+      "date": "12/10/2026 14:21",
+      "week": 5,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 3,
+      "adds": [
+        {
+          "player_id": "11574",
+          "name": "Dylan Laube",
+          "position": "RB",
+          "team": "LV"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1414738076776833024",
+      "type": "waiver",
+      "date": "10/10/2026 16:59",
+      "week": 5,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "8116",
+          "name": "Pierre Strong",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1413703133875425280",
+      "type": "waiver",
+      "date": "07/10/2026 20:26",
+      "week": 5,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 5,
+      "adds": [
+        {
+          "player_id": "8129",
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "2197",
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1413581728970203136",
+      "type": "waiver",
+      "date": "07/10/2026 12:24",
+      "week": 5,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1413443252278898688",
+      "type": "waiver",
+      "date": "07/10/2026 03:14",
+      "week": 4,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 7,
+      "adds": [
+        {
+          "player_id": "11439",
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1413355284826484736",
+      "type": "waiver",
+      "date": "06/10/2026 21:24",
+      "week": 4,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 5,
+      "adds": [
+        {
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "6920",
+          "name": "Isaiah Hodgins",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1413581522023268352",
+      "type": "free_agent",
+      "date": "07/10/2026 12:23",
+      "week": 5,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11056",
+          "name": "Jared Wayne",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1412300677861900288",
+      "type": "waiver",
+      "date": "03/10/2026 23:33",
+      "week": 4,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "2197",
+          "name": "Player 2197",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "13315",
+          "name": "Player 13315",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1412275758977605632",
+      "type": "waiver",
+      "date": "03/10/2026 21:54",
+      "week": 4,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "11157",
+          "name": "Player 11157",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1412240286528090112",
+      "type": "waiver",
+      "date": "03/10/2026 19:33",
+      "week": 4,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "3155",
+          "name": "Player 3155",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411902419075420160",
+      "type": "waiver",
+      "date": "02/10/2026 21:11",
+      "week": 4,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12496",
+          "name": "Tai Felton",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411554871944982528",
+      "type": "waiver",
+      "date": "01/10/2026 22:10",
+      "week": 4,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13273",
+          "name": "Player 13273",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411554819591733248",
+      "type": "waiver",
+      "date": "01/10/2026 22:10",
+      "week": 4,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "14026",
+          "name": "Player 14026",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411507808943312896",
+      "type": "waiver",
+      "date": "01/10/2026 19:03",
+      "week": 4,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 5,
+      "adds": [
+        {
+          "player_id": "13277",
+          "name": "Player 13277",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411457226903740416",
+      "type": "waiver",
+      "date": "01/10/2026 15:42",
+      "week": 4,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13322",
+          "name": "Player 13322",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411374250081660928",
+      "type": "free_agent",
+      "date": "01/10/2026 10:12",
+      "week": 4,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11633",
+          "name": "Jamari Thrash",
+          "position": "WR",
+          "team": null
+        }
+      ]
+    },
+    {
+      "transaction_id": "1411227115864469504",
+      "type": "waiver",
+      "date": "01/10/2026 00:27",
+      "week": 4,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 12,
+      "adds": [
+        {
+          "player_id": "9501",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11557",
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1411216596789166080",
+      "type": "waiver",
+      "date": "30/09/2026 23:46",
+      "week": 4,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13315",
+          "name": "Player 13315",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1411216243616206849",
+      "type": "waiver",
+      "date": "30/09/2026 23:44",
+      "week": 4,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8195",
+          "name": "Player 8195",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "3155",
+          "name": "Player 3155",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1411056720955953152",
+      "type": "waiver",
+      "date": "30/09/2026 13:10",
+      "week": 4,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8208",
+          "name": "Player 8208",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411056680170467328",
+      "type": "waiver",
+      "date": "30/09/2026 13:10",
+      "week": 4,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8207",
+          "name": "Player 8207",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1411006261918515200",
+      "type": "waiver",
+      "date": "30/09/2026 09:50",
+      "week": 4,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "7039",
+          "name": "Player 7039",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1409810123710337024",
+      "type": "waiver",
+      "date": "27/09/2026 02:37",
+      "week": 3,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "10857",
+          "name": "Player 10857",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "5848",
+          "name": "Marquise Brown",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1409809984883068928",
+      "type": "waiver",
+      "date": "27/09/2026 02:36",
+      "week": 3,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "3155",
+          "name": "Player 3155",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "9501",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1409694623940538368",
+      "type": "waiver",
+      "date": "26/09/2026 18:58",
+      "week": 3,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "11616",
+          "name": "Player 11616",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1409694571910152192",
+      "type": "waiver",
+      "date": "26/09/2026 18:58",
+      "week": 3,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11056",
+          "name": "Player 11056",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1409458441495298052",
+      "type": "waiver",
+      "date": "26/09/2026 03:19",
+      "week": 3,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8917",
+          "name": "Player 8917",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1409061532117028864",
+      "type": "waiver",
+      "date": "25/09/2026 01:02",
+      "week": 3,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 11,
+      "adds": [
+        {
+          "player_id": "11596",
+          "name": "Player 11596",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12496",
+          "name": "Tai Felton",
+          "position": "WR",
+          "team": "MIN"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1408787105152335872",
+      "type": "waiver",
+      "date": "24/09/2026 06:52",
+      "week": 3,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "2359",
+          "name": "Player 2359",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11571",
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1408664968844361728",
+      "type": "waiver",
+      "date": "23/09/2026 22:46",
+      "week": 3,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "1737",
+          "name": "Player 1737",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12457",
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1406853127637889024",
+      "type": "waiver",
+      "date": "18/09/2026 22:47",
+      "week": 2,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "5857",
+          "name": "Player 5857",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1406676440883167232",
+      "type": "waiver",
+      "date": "18/09/2026 11:05",
+      "week": 2,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 20,
+      "adds": [
+        {
+          "player_id": "12472",
+          "name": "Player 12472",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1406178097161596928",
+      "type": "waiver",
+      "date": "17/09/2026 02:04",
+      "week": 2,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "6931",
+          "name": "Player 6931",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12470",
+          "name": "Riley Leonard",
+          "position": "QB",
+          "team": "IND"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1406161111673294848",
+      "type": "waiver",
+      "date": "17/09/2026 00:57",
+      "week": 2,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12494",
+          "name": "Kyle McCord",
+          "position": "QB",
+          "team": "MIA"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1406159731193647104",
+      "type": "waiver",
+      "date": "17/09/2026 00:51",
+      "week": 2,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11577",
+          "name": "Player 11577",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1406159194943463424",
+      "type": "waiver",
+      "date": "17/09/2026 00:49",
+      "week": 2,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11292",
+          "name": "Player 11292",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1406120811948974080",
+      "type": "waiver",
+      "date": "16/09/2026 22:17",
+      "week": 2,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "3286",
+          "name": "Player 3286",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "13726",
+          "name": "Camden Brown",
+          "position": "WR",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1406161584887255040",
+      "type": "free_agent",
+      "date": "17/09/2026 00:59",
+      "week": 2,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11619",
+          "name": "Ja'Lynn Polk",
+          "position": "WR",
+          "team": null
+        }
+      ]
+    },
+    {
+      "transaction_id": "1405982470473527296",
+      "type": "free_agent",
+      "date": "16/09/2026 13:07",
+      "week": 2,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13394",
+          "name": "Josh Cameron",
+          "position": "WR",
+          "team": "JAX"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1405982260196384768",
+      "type": "free_agent",
+      "date": "16/09/2026 13:06",
+      "week": 2,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12494",
+          "name": "Kyle McCord",
+          "position": "QB",
+          "team": "MIA"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1405976465152962560",
+      "type": "free_agent",
+      "date": "16/09/2026 12:43",
+      "week": 2,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "829",
+          "name": "Andy Dalton",
+          "position": "QB",
+          "team": "PHI"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1405969231798956032",
+      "type": "free_agent",
+      "date": "16/09/2026 12:14",
+      "week": 2,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11595",
+          "name": "Jared Wiley",
+          "position": "TE",
+          "team": "KC"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1404724123011215360",
+      "type": "waiver",
+      "date": "13/09/2026 01:47",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "4179",
+          "name": "Joshua Dobbs",
+          "position": "QB",
+          "team": "DET"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "9999",
+          "name": "Player 9999",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1404723849391546368",
+      "type": "waiver",
+      "date": "13/09/2026 01:46",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11595",
+          "name": "Jared Wiley",
+          "position": "TE",
+          "team": "KC"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12544",
+          "name": "Player 12544",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1404723635268157440",
+      "type": "waiver",
+      "date": "13/09/2026 01:45",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11729",
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "6111",
+          "name": "Player 6111",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1404723526262407168",
+      "type": "waiver",
+      "date": "13/09/2026 01:44",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "3161",
+          "name": "Carson Wentz",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12471",
+          "name": "Player 12471",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1404512177309712384",
+      "type": "waiver",
+      "date": "12/09/2026 11:45",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 22,
+      "adds": [
+        {
+          "player_id": "4574",
+          "name": "Cooper Rush",
+          "position": "QB",
+          "team": "ATL"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1404234588464709632",
+      "type": "waiver",
+      "date": "11/09/2026 17:22",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11599",
+          "name": "Player 11599",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1403930998667849728",
+      "type": "waiver",
+      "date": "10/09/2026 21:15",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "827",
+          "name": "Tyrod Taylor",
+          "position": "QB",
+          "team": "GB"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1403371043665481728",
+      "type": "waiver",
+      "date": "09/09/2026 08:10",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 28,
+      "adds": [
+        {
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1403238478371688448",
+      "type": "waiver",
+      "date": "08/09/2026 23:23",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8168",
+          "name": "Skyy Moore",
+          "position": "WR",
+          "team": "GB"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1403238291175661568",
+      "type": "waiver",
+      "date": "08/09/2026 23:23",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12670",
+          "name": "KeAndre Lambert-Smith",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1403237888329535488",
+      "type": "waiver",
+      "date": "08/09/2026 23:21",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13297",
+          "name": "Reggie Virgil",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1403235889894715392",
+      "type": "waiver",
+      "date": "08/09/2026 23:13",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8127",
+          "name": "Charlie Kolar",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1403235846978609152",
+      "type": "waiver",
+      "date": "08/09/2026 23:13",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "6271",
+          "name": "Olamide Zaccheaus",
+          "position": "WR",
+          "team": "ATL"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1401351590014631936",
+      "type": "waiver",
+      "date": "03/09/2026 18:26",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12494",
+          "name": "Kyle McCord",
+          "position": "QB",
+          "team": "MIA"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "6798",
+          "name": "Player 6798",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1400110265239904256",
+      "type": "waiver",
+      "date": "31/08/2026 08:13",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12543",
+          "name": "Tahj Brooks",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1400110057412149248",
+      "type": "waiver",
+      "date": "31/08/2026 08:12",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "12048",
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1400109650849837056",
+      "type": "free_agent",
+      "date": "31/08/2026 08:11",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13348",
+          "name": "Player 13348",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1400108631944335360",
+      "type": "free_agent",
+      "date": "31/08/2026 08:06",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "7496",
+          "name": "Player 7496",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1400108313059807232",
+      "type": "free_agent",
+      "date": "31/08/2026 08:05",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13906",
+          "name": "Player 13906",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1400108143844823040",
+      "type": "free_agent",
+      "date": "31/08/2026 08:05",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1400108002794586112",
+      "type": "free_agent",
+      "date": "31/08/2026 08:04",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11573",
+          "name": "Player 11573",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1400107791976300544",
+      "type": "free_agent",
+      "date": "31/08/2026 08:03",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13315",
+          "name": "Player 13315",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1399962176550109184",
+      "type": "waiver",
+      "date": "30/08/2026 22:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 5,
+      "adds": [
+        {
+          "player_id": "13425",
+          "name": "Jalon Daniels",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1399922550196154368",
+      "type": "waiver",
+      "date": "30/08/2026 19:47",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13264",
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1399845376407666688",
+      "type": "waiver",
+      "date": "30/08/2026 14:40",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 25,
+      "adds": [
+        {
+          "player_id": "11237",
+          "name": "Jacob Saylors",
+          "position": "RB",
+          "team": "DET"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1398895988906680320",
+      "type": "waiver",
+      "date": "27/08/2026 23:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11573",
+          "name": "Player 11573",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "8917",
+          "name": "Player 8917",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1398361781579059200",
+      "type": "waiver",
+      "date": "26/08/2026 12:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13906",
+          "name": "Player 13906",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12718",
+          "name": "Player 12718",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1397907406519865344",
+      "type": "waiver",
+      "date": "25/08/2026 06:20",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "13602",
+          "name": "Jack Strand",
+          "position": "QB",
+          "team": "ATL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "10444",
+          "name": "Player 10444",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1397907351985504256",
+      "type": "waiver",
+      "date": "25/08/2026 06:19",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11588",
+          "name": "Player 11588",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1395845077858807808",
+      "type": "waiver",
+      "date": "19/08/2026 13:45",
+      "week": 1,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "13726",
+          "name": "Camden Brown",
+          "position": "WR",
+          "team": "DAL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12455",
+          "name": "Player 12455",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1395844774421856256",
+      "type": "waiver",
+      "date": "19/08/2026 13:43",
+      "week": 1,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "6271",
+          "name": "Olamide Zaccheaus",
+          "position": "WR",
+          "team": "ATL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1395386948545171456",
+      "type": "waiver",
+      "date": "18/08/2026 07:24",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1395386834623664128",
+      "type": "free_agent",
+      "date": "18/08/2026 07:24",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "7608",
+          "name": "Player 7608",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1394547367423782913",
+      "type": "waiver",
+      "date": "15/08/2026 23:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 2,
+      "adds": [
+        {
+          "player_id": "13315",
+          "name": "Player 13315",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12472",
+          "name": "Player 12472",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1391883605667487744",
+      "type": "waiver",
+      "date": "08/08/2026 15:23",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 5,
+      "adds": [
+        {
+          "player_id": "13533",
+          "name": "Barion Brown",
+          "position": "WR",
+          "team": "NO"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11579",
+          "name": "Player 11579",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1391881498021335040",
+      "type": "free_agent",
+      "date": "08/08/2026 15:15",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5185",
+          "name": "Player 5185",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1391281257219883008",
+      "type": "waiver",
+      "date": "06/08/2026 23:30",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "11034",
+          "name": "Jalen Brooks",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11650",
+          "name": "Player 11650",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1391281102034857984",
+      "type": "waiver",
+      "date": "06/08/2026 23:29",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12048",
+          "name": "George Holani",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1390676220265398272",
+      "type": "waiver",
+      "date": "05/08/2026 07:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 1,
+      "adds": [
+        {
+          "player_id": "7608",
+          "name": "Player 7608",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1388891971518492672",
+      "type": "waiver",
+      "date": "31/07/2026 09:15",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "6798",
+          "name": "Player 6798",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1388727984965292032",
+      "type": "waiver",
+      "date": "30/07/2026 22:24",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13434",
+          "name": "Will Kacmarek",
+          "position": "TE",
+          "team": "MIA"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1388727230649077760",
+      "type": "waiver",
+      "date": "30/07/2026 22:21",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13435",
+          "name": "Joe Royer",
+          "position": "TE",
+          "team": "CLE"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1388727127628578816",
+      "type": "waiver",
+      "date": "30/07/2026 22:20",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "2078",
+          "name": "Odell Beckham",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1388547112962105344",
+      "type": "waiver",
+      "date": "30/07/2026 10:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1386767642827689984",
+      "type": "waiver",
+      "date": "25/07/2026 12:34",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11571",
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1375431464199397376",
+      "type": "waiver",
+      "date": "24/06/2026 05:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "11588",
+          "name": "Player 11588",
+          "position": "",
+          "team": ""
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1375431370335096832",
+      "type": "waiver",
+      "date": "24/06/2026 05:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13329",
+          "name": "Malik Benson",
+          "position": "WR",
+          "team": "LV"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1374421398511980544",
+      "type": "waiver",
+      "date": "21/06/2026 10:55",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1372762561744769024",
+      "type": "waiver",
+      "date": "16/06/2026 21:03",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13411",
+          "name": "Zavion Thomas",
+          "position": "WR",
+          "team": "CHI"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1372762199482724352",
+      "type": "free_agent",
+      "date": "16/06/2026 21:02",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12478",
+          "name": "Player 12478",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1372167950458441728",
+      "type": "waiver",
+      "date": "15/06/2026 05:40",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13477",
+          "name": "Colbie Young",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "11588",
+          "name": "Player 11588",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1371887012663033856",
+      "type": "waiver",
+      "date": "14/06/2026 11:04",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 4,
+      "adds": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "8143",
+          "name": "Player 8143",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1371886683124940800",
+      "type": "free_agent",
+      "date": "14/06/2026 11:03",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13277",
+          "name": "Player 13277",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1371879868068798464",
+      "type": "free_agent",
+      "date": "14/06/2026 10:35",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1371349685427523584",
+      "type": "waiver",
+      "date": "12/06/2026 23:29",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ],
+      "drops": [
+        {
+          "player_id": "12478",
+          "name": "Player 12478",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1371286078647980032",
+      "type": "free_agent",
+      "date": "12/06/2026 19:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4988",
+          "name": "Player 4988",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1371285970099384320",
+      "type": "free_agent",
+      "date": "12/06/2026 19:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4179",
+          "name": "Joshua Dobbs",
+          "position": "QB",
+          "team": "DET"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370460824300175360",
+      "type": "waiver",
+      "date": "10/06/2026 12:37",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13477",
+          "name": "Colbie Young",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1370460661779300352",
+      "type": "waiver",
+      "date": "10/06/2026 12:36",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "13435",
+          "name": "Joe Royer",
+          "position": "TE",
+          "team": "CLE"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1370460530413682688",
+      "type": "waiver",
+      "date": "10/06/2026 12:36",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [
+        {
+          "player_id": "2078",
+          "name": "Odell Beckham",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "drops": []
+    },
+    {
+      "transaction_id": "1370452827779899392",
+      "type": "free_agent",
+      "date": "10/06/2026 12:05",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11608",
+          "name": "Player 11608",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370452195509551104",
+      "type": "free_agent",
+      "date": "10/06/2026 12:02",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11994",
+          "name": "Player 11994",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370451744877723648",
+      "type": "free_agent",
+      "date": "10/06/2026 12:01",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4381",
+          "name": "Player 4381",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370450891643039744",
+      "type": "free_agent",
+      "date": "10/06/2026 11:57",
+      "week": 1,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8122",
+          "name": "Player 8122",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370450561647788032",
+      "type": "free_agent",
+      "date": "10/06/2026 11:56",
+      "week": 1,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "10866",
+          "name": "Player 10866",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370450027360550912",
+      "type": "free_agent",
+      "date": "10/06/2026 11:54",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "1426",
+          "name": "Player 1426",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370449919449522176",
+      "type": "free_agent",
+      "date": "10/06/2026 11:53",
+      "week": 1,
+      "season": "2026",
+      "manager": "Paulo_Aragao_Jr",
+      "team_name": "Floripa Astros",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11596",
+          "name": "Player 11596",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370449806543040512",
+      "type": "free_agent",
+      "date": "10/06/2026 11:53",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11617",
+          "name": "Player 11617",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370449724024324096",
+      "type": "free_agent",
+      "date": "10/06/2026 11:53",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "2152",
+          "name": "Player 2152",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370423811685519360",
+      "type": "free_agent",
+      "date": "10/06/2026 10:10",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12797",
+          "name": "Player 12797",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370406056269729792",
+      "type": "free_agent",
+      "date": "10/06/2026 08:59",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11571",
+          "name": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370405629813878784",
+      "type": "free_agent",
+      "date": "10/06/2026 08:57",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11570",
+          "name": "Player 11570",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1370405494824407040",
+      "type": "free_agent",
+      "date": "10/06/2026 08:57",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363973413164564480",
+      "type": "free_agent",
+      "date": "23/05/2026 14:58",
+      "week": 1,
+      "season": "2026",
+      "manager": "Riedelons",
+      "team_name": "Riedelots",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11645",
+          "name": "Player 11645",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363904735718948864",
+      "type": "free_agent",
+      "date": "23/05/2026 10:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6943",
+          "name": "Player 6943",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363904463160508416",
+      "type": "free_agent",
+      "date": "23/05/2026 10:24",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "10857",
+          "name": "Player 10857",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363904200022450176",
+      "type": "free_agent",
+      "date": "23/05/2026 10:23",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "2374",
+          "name": "Player 2374",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363903916244242432",
+      "type": "free_agent",
+      "date": "23/05/2026 10:22",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8145",
+          "name": "Player 8145",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363903809977323520",
+      "type": "free_agent",
+      "date": "23/05/2026 10:21",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "9492",
+          "name": "Player 9492",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363903588656480256",
+      "type": "free_agent",
+      "date": "23/05/2026 10:21",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12634",
+          "name": "Player 12634",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363903447857913856",
+      "type": "free_agent",
+      "date": "23/05/2026 10:20",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6853",
+          "name": "Player 6853",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363898788292341760",
+      "type": "free_agent",
+      "date": "23/05/2026 10:02",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12455",
+          "name": "Player 12455",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363898404362555392",
+      "type": "free_agent",
+      "date": "23/05/2026 10:00",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5857",
+          "name": "Player 5857",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766648040849408",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5987",
+          "name": "Player 5987",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766558748336128",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5938",
+          "name": "Player 5938",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766536048742400",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "13101",
+          "name": "Player 13101",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766490188222464",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11377",
+          "name": "Player 11377",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766465341177856",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766440716402688",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4234",
+          "name": "Player 4234",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766419128320000",
+      "type": "free_agent",
+      "date": "23/05/2026 01:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11299",
+          "name": "Player 11299",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766397192146944",
+      "type": "free_agent",
+      "date": "23/05/2026 01:15",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8123",
+          "name": "Player 8123",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766338216009728",
+      "type": "free_agent",
+      "date": "23/05/2026 01:15",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4040",
+          "name": "Player 4040",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363766315730362368",
+      "type": "free_agent",
+      "date": "23/05/2026 01:15",
+      "week": 1,
+      "season": "2026",
+      "manager": "aribruno",
+      "team_name": "Ari Chameleons",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11577",
+          "name": "Player 11577",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363741149444988928",
+      "type": "free_agent",
+      "date": "22/05/2026 23:35",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12516",
+          "name": "Player 12516",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363741127533924352",
+      "type": "free_agent",
+      "date": "22/05/2026 23:35",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12515",
+          "name": "Player 12515",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363740857726963712",
+      "type": "free_agent",
+      "date": "22/05/2026 23:34",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "7607",
+          "name": "Player 7607",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363740597789130752",
+      "type": "free_agent",
+      "date": "22/05/2026 23:33",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8208",
+          "name": "Player 8208",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363740333350850560",
+      "type": "free_agent",
+      "date": "22/05/2026 23:32",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12889",
+          "name": "Player 12889",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363740087740817408",
+      "type": "free_agent",
+      "date": "22/05/2026 23:31",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11616",
+          "name": "Player 11616",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363739938423574528",
+      "type": "free_agent",
+      "date": "22/05/2026 23:30",
+      "week": 1,
+      "season": "2026",
+      "manager": "fchevarria",
+      "team_name": "Westeros Borrachos",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "3161",
+          "name": "Carson Wentz",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363681368659218432",
+      "type": "free_agent",
+      "date": "22/05/2026 19:38",
+      "week": 1,
+      "season": "2026",
+      "manager": "Riedelons",
+      "team_name": "Riedelots",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "2711",
+          "name": "Player 2711",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363636182403006464",
+      "type": "free_agent",
+      "date": "22/05/2026 16:38",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "9497",
+          "name": "Player 9497",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363636140044734464",
+      "type": "free_agent",
+      "date": "22/05/2026 16:38",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11210",
+          "name": "Player 11210",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363635641191002112",
+      "type": "free_agent",
+      "date": "22/05/2026 16:36",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5955",
+          "name": "Player 5955",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1363617138287337472",
+      "type": "free_agent",
+      "date": "22/05/2026 15:22",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "1837",
+          "name": "Player 1837",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361820902961975296",
+      "type": "free_agent",
+      "date": "17/05/2026 16:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12412",
+          "name": "Player 12412",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361820857344757760",
+      "type": "free_agent",
+      "date": "17/05/2026 16:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361820767758606336",
+      "type": "free_agent",
+      "date": "17/05/2026 16:24",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "1234",
+          "name": "Player 1234",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361818125665861632",
+      "type": "free_agent",
+      "date": "17/05/2026 16:14",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361817446989701120",
+      "type": "free_agent",
+      "date": "17/05/2026 16:11",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "10871",
+          "name": "Player 10871",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361817408007843840",
+      "type": "free_agent",
+      "date": "17/05/2026 16:11",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12473",
+          "name": "Player 12473",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361817199378956288",
+      "type": "free_agent",
+      "date": "17/05/2026 16:10",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12670",
+          "name": "KeAndre Lambert-Smith",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361816943539027968",
+      "type": "free_agent",
+      "date": "17/05/2026 16:09",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12539",
+          "name": "Player 12539",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361816803881283584",
+      "type": "free_agent",
+      "date": "17/05/2026 16:08",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12658",
+          "name": "Player 12658",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361816690123341824",
+      "type": "free_agent",
+      "date": "17/05/2026 16:08",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12738",
+          "name": "Player 12738",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361788447680925696",
+      "type": "free_agent",
+      "date": "17/05/2026 14:16",
+      "week": 1,
+      "season": "2026",
+      "manager": "Ayahuasquers",
+      "team_name": "Bayer Kaxinaw\u00e1s",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11636",
+          "name": "Player 11636",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1361729796354080768",
+      "type": "free_agent",
+      "date": "17/05/2026 10:23",
+      "week": 1,
+      "season": "2026",
+      "manager": "eduohira",
+      "team_name": "Tomorrowland",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "331",
+          "name": "Player 331",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358225505043648512",
+      "type": "free_agent",
+      "date": "07/05/2026 18:18",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6151",
+          "name": "Player 6151",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358225453025865728",
+      "type": "free_agent",
+      "date": "07/05/2026 18:18",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "11439",
+          "name": "Player 11439",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358207040555618304",
+      "type": "free_agent",
+      "date": "07/05/2026 17:05",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358206988827242496",
+      "type": "free_agent",
+      "date": "07/05/2026 17:04",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8207",
+          "name": "Player 8207",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358206830253203456",
+      "type": "free_agent",
+      "date": "07/05/2026 17:04",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6154",
+          "name": "Player 6154",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358206619946614784",
+      "type": "free_agent",
+      "date": "07/05/2026 17:03",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "7608",
+          "name": "Player 7608",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1358206394666352640",
+      "type": "free_agent",
+      "date": "07/05/2026 17:02",
+      "week": 1,
+      "season": "2026",
+      "manager": "rafastw",
+      "team_name": "PsicoPanda",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5773",
+          "name": "Player 5773",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1357844754032754688",
+      "type": "free_agent",
+      "date": "06/05/2026 17:05",
+      "week": 1,
+      "season": "2026",
+      "manager": "leomoraes",
+      "team_name": "Vai que Vikings",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5973",
+          "name": "Player 5973",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1355333945914322944",
+      "type": "free_agent",
+      "date": "29/04/2026 18:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12715",
+          "name": "Player 12715",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1355333911940456448",
+      "type": "free_agent",
+      "date": "29/04/2026 18:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12543",
+          "name": "Tahj Brooks",
+          "position": "RB",
+          "team": "CIN"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1355276510428160000",
+      "type": "free_agent",
+      "date": "29/04/2026 15:00",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12520",
+          "name": "Player 12520",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1342146924983115776",
+      "type": "free_agent",
+      "date": "24/03/2026 09:27",
+      "week": 1,
+      "season": "2026",
+      "manager": "marinh012",
+      "team_name": "MOC\u2019s Outcasts",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12538",
+          "name": "Player 12538",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1341255334907359232",
+      "type": "free_agent",
+      "date": "21/03/2026 22:25",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "9220",
+          "name": "Player 9220",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1341177848647417856",
+      "type": "free_agent",
+      "date": "21/03/2026 17:17",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "827",
+          "name": "Tyrod Taylor",
+          "position": "QB",
+          "team": "GB"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1339662728695918592",
+      "type": "free_agent",
+      "date": "17/03/2026 12:56",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8129",
+          "name": "Player 8129",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1339662679920345088",
+      "type": "free_agent",
+      "date": "17/03/2026 12:56",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "3269",
+          "name": "Player 3269",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1337922960274505728",
+      "type": "free_agent",
+      "date": "12/03/2026 17:43",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12775",
+          "name": "Player 12775",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1337330472123912192",
+      "type": "free_agent",
+      "date": "11/03/2026 02:29",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4219",
+          "name": "Player 4219",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336884589641072640",
+      "type": "free_agent",
+      "date": "09/03/2026 20:57",
+      "week": 1,
+      "season": "2026",
+      "manager": "luizfelipesouza",
+      "team_name": "Squid Games",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6144",
+          "name": "Player 6144",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336792339795951616",
+      "type": "free_agent",
+      "date": "09/03/2026 14:50",
+      "week": 1,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "4171",
+          "name": "Player 4171",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336791809312980992",
+      "type": "free_agent",
+      "date": "09/03/2026 14:48",
+      "week": 1,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "5985",
+          "name": "Player 5985",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336791412452126720",
+      "type": "free_agent",
+      "date": "09/03/2026 14:46",
+      "week": 1,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "1689",
+          "name": "Player 1689",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336077159562752000",
+      "type": "free_agent",
+      "date": "07/03/2026 15:28",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "3357",
+          "name": "Player 3357",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336077105636593664",
+      "type": "free_agent",
+      "date": "07/03/2026 15:28",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8127",
+          "name": "Charlie Kolar",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ]
+    },
+    {
+      "transaction_id": "1336077054243794944",
+      "type": "free_agent",
+      "date": "07/03/2026 15:28",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "6869",
+          "name": "Player 6869",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1335779910932766720",
+      "type": "free_agent",
+      "date": "06/03/2026 19:47",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8139",
+          "name": "Player 8139",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1335779734511955968",
+      "type": "free_agent",
+      "date": "06/03/2026 19:46",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "8249",
+          "name": "Player 8249",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1335779605289635840",
+      "type": "free_agent",
+      "date": "06/03/2026 19:46",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12817",
+          "name": "Player 12817",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1335779553473208320",
+      "type": "free_agent",
+      "date": "06/03/2026 19:46",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "12866",
+          "name": "Player 12866",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1335779383528411136",
+      "type": "free_agent",
+      "date": "06/03/2026 19:45",
+      "week": 1,
+      "season": "2026",
+      "manager": "JonathanMachado17",
+      "team_name": "Arnhem Miners",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "10217",
+          "name": "Player 10217",
+          "position": "",
+          "team": ""
+        }
+      ]
+    },
+    {
+      "transaction_id": "1332575166353391616",
+      "type": "free_agent",
+      "date": "25/02/2026 23:33",
+      "week": 1,
+      "season": "2026",
+      "manager": "TennesseeTITOs",
+      "team_name": "Tennessee TITOs",
+      "bid": 0,
+      "adds": [],
+      "drops": [
+        {
+          "player_id": "7601",
+          "name": "Player 7601",
+          "position": "",
+          "team": ""
+        }
+      ]
+    }
+  ],
+  "total_moves": 217,
+  "last_update": "2026-11-05T05:30:24.931132-03:00"
+}
