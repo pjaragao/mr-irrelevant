@@ -43,6 +43,47 @@ Tag it by name (*Mr. Irrelevant* / *Brock*) or reply to one of its messages:
 | "canta um rap sobre o fulano" | `musica` + `cantar`: fact sheet, lyrics by the model, TTS over a generated beat, sent as a voice note. |
 | "anota aí: ..." (admin only) | the only way facts enter the knowledge base; anyone else gets refused with a joke. |
 
+> The windows below are **simulated WhatsApp conversations** (example messages in the bot's real response format, with fictional league data), not captures of a real group.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Live matchup analysis**
+<img src="docs/img/matchup.png" alt="Simulated WhatsApp window: matchup analysis">
+
+*"Do I have a chance to turn it around?" The bot reads the live score, starters still to play and projections, and gives a win probability. If everyone already played it says the matchup is over.*
+
+</td>
+<td width="50%" valign="top">
+
+**Trade evaluation**
+<img src="docs/img/trade.png" alt="Simulated WhatsApp window: trade evaluation">
+
+*"Is this trade good?" Dynasty value, roster fit and age, then a grade and a roast.*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Guardrails and league slang**
+<img src="docs/img/guardrails.png" alt="Simulated WhatsApp window: guardrails">
+
+*A member tries to rewrite history and then to leak the prompt; both are refused with a joke. Injury status stays official.*
+
+</td>
+<td width="50%" valign="top">
+
+**Scheduled posts (cron, no LLM)**
+<img src="docs/img/scheduled.png" alt="Simulated WhatsApp window: scheduled posts">
+
+*Waiver list and standings posted by the engine, marked as sent only after delivery is confirmed.*
+
+</td>
+</tr>
+</table>
+
 Style rules from the persona (`data/SOUL.md`): short WhatsApp-formatted answers (3 to 12 lines), venom without ever changing a fact,
 official injury status never upgraded, and prompt-injection attempts ("ignore your instructions") are brushed off.
 
