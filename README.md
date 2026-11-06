@@ -32,7 +32,7 @@ The persona is a joke. The engineering behind it is not: the agent is **forbidde
 
 ## 💬 What it looks like on WhatsApp
 
-> These screenshots are **rendered from the bot's real response format** with fictional league data (no real members or scores are shown).
+> These screenshots are **rendered from the bot's real response format** with fictional data (no real members or scores are shown).
 
 <table>
 <tr>
