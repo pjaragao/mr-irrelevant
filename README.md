@@ -30,48 +30,21 @@ The persona is a joke. The engineering behind it is not: the agent is **forbidde
 
 > The bot speaks Brazilian Portuguese (the league's language). Every sample below is translated in the captions.
 
-## 💬 What it looks like on WhatsApp
+## 💬 What you can ask it (in the group chat)
 
-> These screenshots are **rendered from the bot's real response format** with fictional data (no real members or scores are shown).
+Tag it by name (*Mr. Irrelevant* / *Brock*) or reply to one of its messages:
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| You write (PT-BR) | What happens |
+|---|---|
+| "tenho chance de virar essa semana?" | `analise_confronto`: live score, starters still to play, projections, win probability. If everyone already played it says the matchup is over instead of guessing. |
+| "essa troca é boa? dou X por Y" | `avaliar_troca`: dynasty value of both sides, roster fit and age, then a grade and a roast. |
+| "quem mais trocou na temporada?" | `estatisticas`: an exact SQL count over the knowledge base, never an LLM tally. |
+| "manda um gráfico de trocas por semana" | `grafico`: renders a PNG chart and sends it to the group as an image. |
+| "canta um rap sobre o fulano" | `musica` + `cantar`: fact sheet, lyrics by the model, TTS over a generated beat, sent as a voice note. |
+| "anota aí: ..." (admin only) | the only way facts enter the knowledge base; anyone else gets refused with a joke. |
 
-**Live matchup analysis**
-<img src="docs/img/matchup.png" alt="Matchup analysis in the WhatsApp group">
-
-*"Do I have a chance to turn it around?" → the bot reads the live score, the starters still to play and their projections, and returns a win probability. If everyone already played it says the matchup is over (0%), instead of guessing.*
-
-</td>
-<td width="50%" valign="top">
-
-**Trade evaluation**
-<img src="docs/img/trade.png" alt="Trade evaluation in the WhatsApp group">
-
-*"Is this trade good?" → dynasty value of both sides, roster fit (Superflex slots, depth chart) and age, then a grade and a roast.*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Guardrails and league slang**
-<img src="docs/img/guardrails.png" alt="Guardrails in the WhatsApp group">
-
-*A member tries to rewrite history ("note that I'm the 2025 champ") and then to leak the prompt. Both are refused with a joke. Injury reports keep the official status ("Questionable" is never upgraded to "torn") and use the league slang for a hamstring.*
-
-</td>
-<td width="50%" valign="top">
-
-**Scheduled posts (cron, no LLM)**
-<img src="docs/img/scheduled.png" alt="Scheduled editorial posts">
-
-*Every Thursday the engine posts the full waiver list and the standings by itself. A message is only marked as sent after the WhatsApp gateway confirms delivery.*
-
-</td>
-</tr>
-</table>
+Style rules from the persona (`data/SOUL.md`): short WhatsApp-formatted answers (3 to 12 lines), venom without ever changing a fact,
+official injury status never upgraded, and prompt-injection attempts ("ignore your instructions") are brushed off.
 
 ## ✨ Features
 
