@@ -24,7 +24,7 @@ _QUERIES = [
     "recordes", "playoffs", "classificados", "trocas", "trocas_picks", "draft_historico", "draft_picks", "picks_manager",
     "ordem_draft", "notas_draft", "max_pf", "waivers", "radar_waivers", "transacoes", "placar_nfl",
     "noticias_nfl", "data_lab", "notas", "avaliar_troca", "power_ranking", "chances_playoff", "waivers_semana",
-    "estatisticas", "ranking_pontos", "grafico", "musica", "cantar", "ajuda",
+    "estatisticas", "ranking_pontos", "grafico", "musica", "cantar", "piadas", "piadas_enviar", "ajuda",
 ]
 
 SCHEMA = {
@@ -43,6 +43,7 @@ SCHEMA = {
         "quando pedirem gráfico/imagem e inclua a linha MEDIA:<caminho> devolvida. "
         "**musica** alvo=<manager|jogador> [alvo2] [tema] = ficha de pesquisa para compor (dados, rivais, perfil, notícias); "
         "**cantar** letra=<versos> = áudio da música (devolve MEDIA:): só quando pedirem música/rap/paródia. "
+        "**piadas**/**piadas_enviar** = piadista: SÓ por ordem do admin verificado no chat privado (recusam fora disso). "
         "**ranking_pontos** listas=RB:24,WR:36,FLEX:36 = top-N por posição (flex = sobras). **ajuda** alvo=<consulta>."),
     "parameters": {
         "type": "object",
@@ -76,6 +77,10 @@ SCHEMA = {
             "tema": {"type": "string", "description": "só musica: foco do pedido (derrotas, vitórias, trocas…)"},
             "letra": {"type": "string", "description": "só cantar: os versos da música, um por linha"},
             "estilo": {"type": "string", "enum": ["rap", "lento"], "description": "só cantar (padrão rap)"},
+            "piadas": {"type": "string", "description": "só piadas_enviar: as piadas, uma por linha"},
+            "destino": {"type": "string", "enum": ["grupo", "dm"], "description": "só piadas_enviar: grupo da liga ou DM do admin"},
+            "formato": {"type": "string", "enum": ["texto", "audio"], "description": "só piadas_enviar: audio = cada piada vira nota de voz"},
+            "intervalo": {"type": "integer", "description": "só piadas_enviar: segundos entre uma piada e a seguinte"},
             "dados": {"type": "string", "description": "só grafico: JSON com seus próprios dados (title, blocks[...])"},
             "posicao": {"type": "string", "enum": ["QB", "RB", "WR", "TE", "K", "DEF"],
                         "description": "só estatisticas/grafico de entidade=pontuacao: filtra a posição"},

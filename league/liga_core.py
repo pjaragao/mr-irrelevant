@@ -69,6 +69,8 @@ CMDS: Dict[str, tuple[str, List[str]]] = {
     "ranking_pontos": ("__ranking__", ["listas", "ano", "metrica"]),
     "musica": ("__song_brief__", ["alvo", "alvo2", "tema"]),
     "cantar": ("__sing__", ["letra", "estilo"]),
+    "piadas": ("__joke_brief__", ["alvo", "alvo2", "tema", "limite"]),
+    "piadas_enviar": ("__joke_send__", ["piadas", "destino", "intervalo", "formato"]),
     "ajuda": ("__help__", ["alvo"]),
 }
 
@@ -136,6 +138,10 @@ HELP: Dict[str, str] = {
                "escreva a letra e chame `cantar`."),
     "cantar": ("cantar letra=<versos, um por linha> [estilo=rap|lento] — transforma a letra em ÁUDIO (voz do Antonio sobre uma "
                "base de rap) e devolve a linha MEDIA:<caminho>. 4 a 40 versos de até 140 caracteres."),
+    "piadas": ("piadas alvo=<manager> [alvo2] tema=<pedido do Paulo> [limite=qtd] — SÓ por ordem do admin no DM (recusa sem "
+               "autorização): ficha de fatos + regras para escrever piadas; depois chame `piadas_enviar`."),
+    "piadas_enviar": ("piadas_enviar piadas=<uma por linha> destino=grupo|dm intervalo=<segundos> [formato=audio] — SÓ por ordem do admin no DM: "
+                      "põe as piadas na fila (a 1ª sai já, as outras no ritmo pedido)."),
     "ajuda": "ajuda [alvo=consulta] — uso detalhado de uma consulta (ou de todas)",
 }
 
@@ -261,7 +267,7 @@ def run_query(consulta: str, args: Dict[str, Any] | None = None) -> str:
     key = f"{league_ctx.current().slug}|{consulta}|{'|'.join(argv)}"   # answers carry one league's data: never shared
     now = time.monotonic()
     hit = _cache.get(key)
-    if hit and now - hit[0] < CACHE_TTL:
+    if hit and now - hit[0] < CACHE_TTL and not consulta.startswith("piadas"):
         return hit[1]
     t0 = time.monotonic()
     try:
@@ -334,6 +340,20 @@ def run_query(consulta: str, args: Dict[str, Any] | None = None) -> str:
                     out = f"Não consegui cantar: {exc}"
                 except (OSError, subprocess.SubprocessError) as exc:
                     out = f"Não consegui cantar (erro de áudio: {exc.__class__.__name__}). Responda a letra em texto."
+            elif cmd == "__joke_brief__":
+                import piadista
+                out = piadista.brief(args.get("alvo") or "", args.get("alvo2") or "", args.get("tema") or "",
+                                     int(args.get("limite") or 0))
+            elif cmd == "__joke_send__":
+                import piadista
+                try:
+                    out = piadista.media_reply(piadista.enqueue(
+                        piadista.parse_jokes(args.get("piadas") or ""), args.get("destino") or "",
+                        float(args.get("intervalo") or 0), fmt=args.get("formato") or "texto"))
+                except PermissionError as exc:
+                    out = str(exc)
+                except (ValueError, OSError) as exc:
+                    out = f"Não consegui enfileirar as piadas: {exc}"
             elif cmd == "__help__":
                 topic = str(args.get("alvo") or "").strip().lower()
                 out = HELP.get(topic) or "\n".join(f"• {v}" for v in HELP.values())
@@ -372,5 +392,6 @@ def run_query(consulta: str, args: Dict[str, Any] | None = None) -> str:
     out = note + (out or "(sem resultado)")
     out = _truncate(out)
     logger.info("[liga] %s %s -> %d chars in %.2fs", consulta, argv, len(out), time.monotonic() - t0)
-    _cache[key] = (now, out)
+    if not consulta.startswith("piadas"):      # authorization-gated and side-effecting: never replay an answer
+        _cache[key] = (now, out)
     return out

@@ -212,6 +212,10 @@ async def _post_json(session, url: str, api_key: str, payload: dict, timeout: fl
         return resp.status, body
 
 
+_VOICE_WINDOW = 240.0                 # seconds a voice note keeps the chat in "reply with voice" mode
+_VOICE_MAX_SECONDS = 180
+_VOICE_TAG = ("[MENSAGEM DE VOZ transcrita; sua resposta vira áudio automaticamente: fale curto (até ~60 palavras), "
+              "sem listas, emojis, tabelas nem asteriscos, e NÃO chame text_to_speech]\n")
 _AUDIO_EXT = {".mp3", ".ogg", ".opus", ".m4a", ".wav", ".aac", ".webm"}
 
 
@@ -289,6 +293,7 @@ class EvolutionAdapter(BasePlatformAdapter):
         self._people = _league_module("people")
         self._lctx = _league_module("league_ctx")
         self._rate: Dict[str, list] = {}
+        self._voice_until: Dict[str, float] = {}      # chat → monotonic deadline: answer the voice note in voice
         self._rate_limit = int(_secret("EVOLUTION_RATE_LIMIT", "8") or 8)
         self._runner = None
         self._http: Optional[aiohttp.ClientSession] = None
@@ -368,6 +373,9 @@ class EvolutionAdapter(BasePlatformAdapter):
 
     async def send(self, chat_id: str, content: str, reply_to: Optional[str] = None,
                    metadata: Optional[Dict[str, Any]] = None) -> SendResult:
+        spoken = await self._maybe_speak(chat_id, content)
+        if spoken is not None:
+            return spoken
         result = SendResult(success=True)
         messages = _split_messages(content) or [content or ""]
         turn, seq = f"t{time.time_ns()}", 0           # the chunks of one answer are one message for the thread
@@ -602,6 +610,72 @@ class EvolutionAdapter(BasePlatformAdapter):
         except Exception as exc:
             logger.debug("[evolution] forward to %s failed: %s", url, exc)
 
+    # ------------------------------------------------------------------ voice notes (DM only)
+    def _start_voice_input(self, payload, data, key, voice_msg, remote_jid: str, msg_id: str) -> None:
+        """Voice note in a DM from an allowed sender → download, transcribe, then handle it as if typed."""
+        ids = {_digits(x) for x in (key.get("remoteJidAlt"), remote_jid, key.get("sender"), data.get("sender")) if x} - {""}
+        if not any(_id_matches(i, self._all_dm_allowed()) for i in ids):
+            logger.info("[evolution] voice note from an unlisted DM sender ignored")
+            return
+        logger.info("[evolution] voice note received (%ss)", voice_msg.get("seconds"))
+        task = asyncio.create_task(self._voice_to_text(payload, data, key, voice_msg, remote_jid, msg_id))
+        self._background_tasks.add(task)
+        task.add_done_callback(self._background_tasks.discard)
+
+    async def _voice_to_text(self, payload, data, key, voice_msg, remote_jid: str, msg_id: str) -> None:
+        try:
+            if int(voice_msg.get("seconds") or 0) > _VOICE_MAX_SECONDS:
+                await self.send(remote_jid, f"🎙️ Áudio longo demais (máx. {_VOICE_MAX_SECONDS // 60} min). Manda mais curto ou escreve.")
+                return
+            session = self._http or aiohttp.ClientSession(trust_env=gateway_trust_env())
+            try:
+                status, body = await _post_json(
+                    session, f"{self._base_url}/chat/getBase64FromMediaMessage/{self._instance}", self._api_key,
+                    {"message": {"key": {"id": msg_id}}, "convertToMp4": False}, timeout=60.0)
+            finally:
+                if session is not self._http:
+                    await session.close()
+            b64 = (body or {}).get("base64") if isinstance(body, dict) else ""
+            if status >= 400 or not b64:
+                raise RuntimeError(f"download do áudio falhou ({status})")
+            import base64
+            audio = base64.b64decode(b64)
+            mime = str((body or {}).get("mimetype") or voice_msg.get("mimetype") or "audio/ogg")
+            vm = _league_module("voice")
+            transcript = await asyncio.get_running_loop().run_in_executor(None, vm.transcribe, audio, mime) if vm else ""
+            if not transcript:
+                await self.send(remote_jid, "🎙️ Não consegui entender o áudio. Tenta de novo ou escreve.")
+                return
+            logger.info("[evolution] voice note transcribed (%d chars)", len(transcript))
+            payload = {**payload, "data": {**data, "message": {"conversation": transcript}, "_voice": True}}
+            self._dispatch(payload, voice_done=True)
+        except Exception as exc:
+            logger.warning("[evolution] voice input failed: %s", exc)
+            try:
+                await self.send(remote_jid, "🎙️ Deu ruim com o áudio. Escreve que eu respondo.")
+            except Exception:
+                pass
+
+    async def _maybe_speak(self, chat_id: str, content: str) -> Optional[SendResult]:
+        """Reply to a voice note with a voice note (once per window). None = send as text."""
+        if time.monotonic() > self._voice_until.get(chat_id, 0) or "MEDIA:" in (content or ""):
+            return None
+        vm = _league_module("voice")
+        text = _split_messages(content or "")
+        text = " ".join(t.strip() for t in text) if text else (content or "")
+        if not vm or not text.strip():
+            return None
+        try:
+            path = await asyncio.get_running_loop().run_in_executor(None, vm.speak, text)
+        except Exception as exc:
+            logger.warning("[evolution] TTS failed, replying in text: %s", exc)
+            return None
+        res = await self.send_voice(chat_id, path)
+        if res.success:
+            self._voice_until.pop(chat_id, None)
+            return res
+        return None
+
     async def _handle_webhook(self, request: "web.Request") -> "web.Response":
         if self._token and request.headers.get("X-Webhook-Token", "") != self._token:
             return web.json_response({"error": "unauthorized"}, status=401)
@@ -620,7 +694,7 @@ class EvolutionAdapter(BasePlatformAdapter):
             logger.error("[evolution] payload handling error: %s", exc, exc_info=True)
         return web.json_response({"status": "ok"})
 
-    def _dispatch(self, payload: Dict[str, Any]) -> None:
+    def _dispatch(self, payload: Dict[str, Any], voice_done: bool = False) -> None:
         event = str(payload.get("event") or "").lower().replace("_", ".")
         if event != "messages.upsert":
             return
@@ -634,12 +708,16 @@ class EvolutionAdapter(BasePlatformAdapter):
         if not remote_jid or remote_jid.endswith(("@broadcast", "@newsletter")) or remote_jid == "status@broadcast":
             return
         msg_id = str(key.get("id") or "")
-        if self._is_duplicate(msg_id):
+        if not voice_done and self._is_duplicate(msg_id):
             return
         message = data.get("message") or {}
         text = _extract_text(message).strip()
         if not text:
+            voice_msg = message.get("audioMessage") if isinstance(message, dict) else None
+            if isinstance(voice_msg, dict) and not voice_done and not remote_jid.endswith("@g.us"):
+                self._start_voice_input(payload, data, key, voice_msg, remote_jid, msg_id)
             return
+        voice_in = bool(data.get("_voice"))
         ctx = _context_info(message, data)
         is_group = remote_jid.endswith("@g.us")
         sender_raw = (key.get("participantAlt") or key.get("participantPn") or data.get("participantPn")
@@ -736,6 +814,9 @@ class EvolutionAdapter(BasePlatformAdapter):
                     logger.info("[evolution] reply thread: %d message(s) of context", len(thread))
             except Exception as exc:  # pragma: no cover
                 logger.warning("[evolution] reply thread failed: %s", exc)
+        if voice_in:
+            self._voice_until[chat_id] = time.monotonic() + _VOICE_WINDOW
+            agent_text = _VOICE_TAG + agent_text
         user_id = _digits(sender_raw) or next(iter(sender_ids), "") or remote_jid
         source = self.build_source(
             chat_id=chat_id, chat_name=remote_jid if is_group else push,
@@ -771,6 +852,20 @@ async def _route_impl(adapter: "EvolutionAdapter", ev: MessageEvent, text: str, 
                 return
             except Exception as exc:
                 logger.warning("[evolution] watch switch failed: %s", exc)
+    if is_admin and "@g.us" not in (chat_id or ""):
+        # Piadista: the grant is opened ONLY here (verified admin + private chat); the `piadas*` tools refuse without it
+        pz = _league_module("piadista")
+        if pz and pz.is_trigger(text):
+            try:
+                if league is not None and adapter._lctx:
+                    with adapter._lctx.use(league):
+                        pz.grant()
+                else:
+                    pz.grant()
+                ev.text = pz.agent_directive() + (ev.text or text)
+                logger.info("[evolution] route=piadista (admin DM) grant opened")
+            except Exception as exc:
+                logger.warning("[evolution] piadista grant failed: %s", exc)
     if is_admin and adapter._notes:
         body = adapter._notes.parse_command(text)
         if body:

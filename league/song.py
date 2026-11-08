@@ -317,6 +317,9 @@ def _voice() -> str:
 
 
 def _edge():
+    lazy = os.path.join(os.environ.get("HERMES_HOME", "/opt/data"), "lazy-packages")   # where Hermes installed edge-tts
+    if os.path.isdir(lazy) and lazy not in sys.path:
+        sys.path.append(lazy)
     try:
         import edge_tts
         return edge_tts

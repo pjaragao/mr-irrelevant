@@ -16,6 +16,7 @@ JOBS=(
   "live-watch|*/5 * * * *|live_watch.py"
   "live-score|*/5 * * * *|live_score_tick.py"       # placar/jogadas do meu confronto por DM (sem IA)
   "lineup-advice|*/5 * * * *|lineup_tick.py"        # análise de escalação incremental por DM (qui/dom/seg + dias especiais)
+  "piadista-tick|* * * * *|piadista_tick.py"       # piadas do piadista na cadência pedida pelo admin (silencioso sem fila)
   "provider-watch|17 * * * *|provider_watch.py"
   "eleicao-watch|* * 4-6,25-27 10 *|eleicao_watch.py"   # Eleições 2026 (DM do admin); vira no-op ao fim da apuração
 )

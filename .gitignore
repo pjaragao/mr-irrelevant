@@ -62,3 +62,8 @@ league/knowledge_base/MANAGERS_PSYCHOLOGICAL_PROFILES.md
 *.lock
 *.pid
 *.sock
+
+# piadista runtime state
+league/piadista_queue.json
+league/piadista_queue.lock
+league/piadista_grant.json
