@@ -733,8 +733,8 @@ def armed_projection_note() -> str:
             f"Ponto de partida, antes do 1º voto: Flávio Bolsonaro {_br(100 * r['share_a'])}% × Lula "
             f"{_br(100 * (1 - r['share_a']))}% — 1º turno por município + migração dos eliminados "
             "(Caiado 60/25, Cury 40/40, Renan 65/25; research de 21/10). Média das pesquisas até 21/10: 50,9 × 49,1.\n"
-            "_Testado reencenando os 2º turnos de 2014, 2018 e 2022 na ordem real de chegada: erro médio de 0,23 p.p. "
-            "a partir de 5% apurado; a faixa de 90% acertou 89% das vezes._")
+            "_Testado reencenando os 2º turnos de 2014, 2018 e 2022 na ordem real de chegada: erro médio de 0,28 p.p. "
+            "a partir de 5% apurado; a faixa de 90% acertou 84% das vezes e nunca apontou com confiança o vencedor errado._")
 
 
 def _br(x: float, nd: int = 1) -> str:

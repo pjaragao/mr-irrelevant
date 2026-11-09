@@ -71,7 +71,7 @@ PARAMS = {  # calibrados em eleicao_backtest.py (2014, 2018, 2022 — só totais
     "tauB": 0.0,      # porte do município — DESLIGADO: os pequenos apuram antes e contaminam o coeficiente
     "tauL": 0.0,      # nível do lugar — DESLIGADO: ajuda 2022, piora 2018 (o mesmo achado da literatura aberta)
     "sigmaU": 0.05,   # efeito próprio de cada município (log-odds)
-    "sigmaPiso": 0.025,  # piso de erro comum sobre o que falta: faixa de 90% cobriu 89% nos backtests
+    "sigmaPiso": 0.025,  # piso de erro comum sobre o que falta: faixa de 90% cobriu 84% nos backtests (n=90)
     "sigmaPisoReg": 0.04,  # idem por região (o erro de especificação não se compensa): cobertura 93% nas 5 regiões
     "kN": 300_000.0,  # votos que valem o prior de comparecimento (nacional)
     "kU": 60_000.0,   # idem por UF (puxa para o nacional)
